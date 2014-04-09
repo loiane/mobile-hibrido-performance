@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>QCONSP 2014</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">.
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="lib/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <!--link rel="stylesheet" href="lib/topcoat-mobile-light.min.css" /-->
+</head>
+
+<body>
+
+	<div data-role="page">
+		<div style="position:relative; width: 1024px; height: 600px;">
+        <!--img id="phone" src="images/iphone5.png" style="position: absolute;left:349px;top:0px;width: 326px;"/-->
+        <div id="pageA" class="page page-left" style="background-color: #00CC99">
+            <a class="topcoat-button" onclick="javascript:slide('pageA', 'page-left')">Left</a>
+            <a class="topcoat-button" onclick="javascript:slide('pageA', 'page-center')">Center</a>
+            <a class="topcoat-button" onclick="javascript:slide('pageA', 'page-right')">Right</a>
+            <br/>
+            <br/>
+            <br/>
+            <span id="pageAclass">class="left"</span>
+        </div>
+        <div id="pageB" class="page page-center" style="background-color: #9999FF">
+            <a class="topcoat-button" onclick="javascript:slide('pageB', 'page-left')">Left</a>
+            <a class="topcoat-button" onclick="javascript:slide('pageB', 'page-center')">Center</a>
+            <a class="topcoat-button" onclick="javascript:slide('pageB', 'page-right')">Right</a>
+            <br/>
+            <br/>
+            <br/>
+            <span id="pageBclass">class="center"</span>
+        </div>
+        <div id="pageC" class="page page-right" style="background-color: #FFCC66">
+            <a class="topcoat-button" onclick="javascript:slide('pageC', 'page-left')">Left</a>
+            <a class="topcoat-button" onclick="javascript:slide('pageC', 'page-center')">Center</a>
+            <a class="topcoat-button" onclick="javascript:slide('pageC', 'page-right')">Right</a>
+            <br/>
+            <br/>
+            <br/>
+            <span id="pageCclass">class="right"</span>
+        </div>
+    </div>
+	</div>
+
+	<script src="lib/jquery-1.11.0.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.2.min.js"></script>
+    <script src="lib/fastclick.js"></script>
+    <script src="lib/pageslider.js"></script>
+	<script type="text/javascript">
+	   function slide(page, position) {
+            var $i = $("#phone");
+            var $p = $("#"+page);
+            var $c = $("#"+page+"class");
+            $i.css("z-index", 20);
+            $(".page").css("z-index", 5);
+            $p.css("z-index", 10);
+            $p.attr("class", "page transition " + position);
+            $c.html('class="' + position.substr(5) + '"');
+            setTimeout(function() {
+                $i.css("z-index", 0);
+            },250);
+        }
+	</script>
+	
+</body>
+</html>

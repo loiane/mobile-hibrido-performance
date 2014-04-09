@@ -1,0 +1,1278 @@
+TContactsTouchNormal
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Info.plist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Script-304B58A110DAC018002A0835.sh
+cCpResource ContactsTouchNormal/Resources/icons/icon-76.png build/emulator/ContactsTouchNormal.app/icon-76.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-40@2x.png build/emulator/ContactsTouchNormal.app/icon-40@2x.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-72.png build/emulator/ContactsTouchNormal.app/icon-72.png
+cCpResource ContactsTouchNormal/Resources/icons/icon.png build/emulator/ContactsTouchNormal.app/icon.png
+cCpResource ContactsTouchNormal/Resources/icons/icon@2x.png build/emulator/ContactsTouchNormal.app/icon@2x.png
+cCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/en.lproj/Localizable.strings ContactsTouchNormal/Resources/en.lproj/Localizable.strings
+cCompileXIB /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.xib
+cCpResource ContactsTouchNormal/Resources/icons/icon-50.png build/emulator/ContactsTouchNormal.app/icon-50.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-60@2x.png build/emulator/ContactsTouchNormal.app/icon-60@2x.png
+cCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/de.lproj/Localizable.strings ContactsTouchNormal/Resources/de.lproj/Localizable.strings
+cCpResource ContactsTouchNormal/Resources/icons/icon-small.png build/emulator/ContactsTouchNormal.app/icon-small.png
+cCpResource ContactsTouchNormal/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/ContactsTouchNormal.app/Default-Landscape@2x~ipad.png
+cCpResource ContactsTouchNormal/Resources/splash/Default-Landscape~ipad.png build/emulator/ContactsTouchNormal.app/Default-Landscape~ipad.png
+cCpResource ContactsTouchNormal/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/ContactsTouchNormal.app/Default-Portrait@2x~ipad.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-small@2x.png build/emulator/ContactsTouchNormal.app/icon-small@2x.png
+cCpResource ContactsTouchNormal/Resources/splash/Default-Portrait~ipad.png build/emulator/ContactsTouchNormal.app/Default-Portrait~ipad.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-40.png build/emulator/ContactsTouchNormal.app/icon-40.png
+cCpResource ContactsTouchNormal/Resources/splash/Default@2x~iphone.png build/emulator/ContactsTouchNormal.app/Default@2x~iphone.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-60.png build/emulator/ContactsTouchNormal.app/icon-60.png
+cCpResource ContactsTouchNormal/Resources/splash/Default~iphone.png build/emulator/ContactsTouchNormal.app/Default~iphone.png
+cCpResource ContactsTouchNormal/Resources/splash/Default-568h@2x~iphone.png build/emulator/ContactsTouchNormal.app/Default-568h@2x~iphone.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-50@2x.png build/emulator/ContactsTouchNormal.app/icon-50@2x.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-76@2x.png build/emulator/ContactsTouchNormal.app/icon-76@2x.png
+cCpResource ContactsTouchNormal/Resources/icons/icon-72@2x.png build/emulator/ContactsTouchNormal.app/icon-72@2x.png
+cProcessPCH /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.pch ContactsTouchNormal/ContactsTouchNormal-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal normal i386
+cGenerateDSYMFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app.dSYM /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal
+cTouch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.h
+c000000005345570200000000000005CB
+t1397053186
+s1483
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.m
+c000000005345570200000000000013BD
+t1397053186
+s5053
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.h
+c000000005345570200000000000004D9
+t1397053186
+s1241
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.m
+c00000000534557020000000000001274
+t1397053186
+s4724
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.xib
+c00000000534557020000000000001759
+t1397053186
+s5977
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Info.plist
+c0000000053455BB80000000000000A0D
+t1397054392
+s2573
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Prefix.pch
+c000000005345570200000000000003D7
+t1397053186
+s983
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.h
+c000000005345588C0000000000001640
+t1397053580
+s5696
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m
+c000000005345588C00000000000137C5
+t1397053580
+s79813
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.h
+c000000005345588C00000000000014F9
+t1397053580
+s5369
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m
+c000000005345588C0000000000006A52
+t1397053580
+s27218
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/de.lproj/Localizable.strings
+c000000005345570200000000000004C0
+t1397053186
+s1216
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/en.lproj/Localizable.strings
+c000000005345570200000000000004AB
+t1397053186
+s1195
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-40.png
+c00000000534557020000000000000FF2
+t1397053186
+s4082
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-40@2x.png
+c00000000534557020000000000001CF3
+t1397053186
+s7411
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-50.png
+c0000000053455702000000000000130A
+t1397053186
+s4874
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-50@2x.png
+c0000000053455702000000000000258B
+t1397053186
+s9611
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-60.png
+c000000005345570200000000000016B3
+t1397053186
+s5811
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-60@2x.png
+c00000000534557020000000000002E94
+t1397053186
+s11924
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-72.png
+c00000000534557020000000000001350
+t1397053186
+s4944
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-72@2x.png
+c00000000534557020000000000002DBA
+t1397053186
+s11706
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-76.png
+c00000000534557020000000000001B71
+t1397053186
+s7025
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-76@2x.png
+c00000000534557020000000000003B9E
+t1397053186
+s15262
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-small.png
+c00000000534557020000000000000CDE
+t1397053186
+s3294
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-small@2x.png
+c000000005345570200000000000015E8
+t1397053186
+s5608
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon.png
+c00000000534557020000000000000F3E
+t1397053186
+s3902
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon@2x.png
+c00000000534557020000000000001EBD
+t1397053186
+s7869
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-568h@2x~iphone.png
+c000000005345570200000000000085B1
+t1397053186
+s34225
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000534557020000000000033D0A
+t1397053186
+s212234
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-Landscape~ipad.png
+c000000005345570200000000000166A2
+t1397053186
+s91810
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000534557020000000000033F7C
+t1397053186
+s212860
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-Portrait~ipad.png
+c00000000534557020000000000016641
+t1397053186
+s91713
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default@2x~iphone.png
+c00000000534557020000000000007323
+t1397053186
+s29475
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default~iphone.png
+c0000000053455702000000000000289A
+t1397053186
+s10394
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/main.m
+c00000000534557020000000000000465
+t1397053186
+s1125
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.o
+t1397053213
+s74172
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.o
+t1397053597
+s141876
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.o
+t1397053597
+s122948
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/ContactsTouchNormal.LinkFileList
+c00000000534558990000000000000428
+t1397053593
+s1064
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.o
+t1397053213
+s50984
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.o
+t1397053213
+s3132
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Script-304B58A110DAC018002A0835.sh
+c0000000053455717000000000000002D
+t1397053207
+s45
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app
+t1397054402
+s1020
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app.dSYM
+t1397053878
+s102
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal
+t1397053597
+s411152
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-568h@2x~iphone.png
+t1397053210
+s34225
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-Landscape@2x~ipad.png
+t1397053210
+s212234
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-Landscape~ipad.png
+t1397053210
+s91810
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-Portrait@2x~ipad.png
+t1397053210
+s212860
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-Portrait~ipad.png
+t1397053210
+s91713
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default@2x~iphone.png
+t1397053210
+s29475
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default~iphone.png
+t1397053210
+s10394
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Info.plist
+t1397054398
+s1303
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/MainViewController.nib
+t1397053212
+s1332
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/PkgInfo
+t2
+s0
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/de.lproj/Localizable.strings
+t1397053210
+s280
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/en.lproj/Localizable.strings
+t1397053210
+s166
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-40.png
+t1397053210
+s4082
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-40@2x.png
+t1397053210
+s7411
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-50.png
+t1397053210
+s4874
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-50@2x.png
+t1397053210
+s9611
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-60.png
+t1397053210
+s5811
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-60@2x.png
+t1397053210
+s11924
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-72.png
+t1397053210
+s4944
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-72@2x.png
+t1397053210
+s11706
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-76.png
+t1397053210
+s7025
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-76@2x.png
+t1397053210
+s15262
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-small.png
+t1397053210
+s3294
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-small@2x.png
+t1397053210
+s5608
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon.png
+t1397053210
+s3902
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon@2x.png
+t1397053210
+s7869
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+c00000000534557150000000000000CDD
+t1397053205
+s3293
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+c000000005345571500000000000008BA
+t1397053205
+s2234
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+c000000005345571500000000000004B5
+t1397053205
+s1205
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+c00000000534557150000000000000503
+t1397053205
+s1283
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+c000000005345571500000000000007E6
+t1397053205
+s2022
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+c00000000534557150000000000000892
+t1397053205
+s2194
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+c00000000534557150000000000000C13
+t1397053205
+s3091
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+c00000000534557150000000000000408
+t1397053205
+s1032
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+c00000000534557150000000000000ACC
+t1397053205
+s2764
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+c000000005345571500000000000004B4
+t1397053205
+s1204
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+c00000000534557150000000000000392
+t1397053205
+s914
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+c000000005345571500000000000005DA
+t1397053205
+s1498
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+c000000005345571500000000000003A0
+t1397053205
+s928
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/libCordova.a
+c000000005345571700000000000D35F0
+t1397053207
+s865776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000532B83DF00000000000003B4
+t1395360735
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532B83E5000000000000019E
+t1395360741
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000532B83E70000000000484210
+t1395360743
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000532B83E70000000000098030
+t1395360743
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000532B83E6000000000019D2D0
+t1395360742
+s1692368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000532B83E70000000000505040
+t1395360743
+s5263424
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000532B83E60000000000059340
+t1395360742
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000532B83E800000000005B82F0
+t1395360744
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000532B83E80000000000446820
+t1395360744
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000532B83E700000000000F1A80
+t1395360743
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000532B83E8000000000013B8C0
+t1395360744
+s1292480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000532B83EA000000000088D8C0
+t1395360746
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000532B83EA00000000001BE790
+t1395360746
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000532B83EF0000000001F1DE10
+t1395360751
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000532B83F900000000002BC360
+t1395360761
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000532B84000000000000002338
+t1395360768
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000532B8401000000000008D370
+t1395360769
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000532B84000000000000392E20
+t1395360768
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c000000005334CA7B00000000000141F0
+t1395968635
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000532B84010000000000014A80
+t1395360769
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000532B84010000000000033BA0
+t1395360769
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000532B8401000000000001CFB0
+t1395360769
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000532B8401000000000001B2B0
+t1395360769
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000532B840100000000000C9570
+t1395360769
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000532B84010000000000063280
+t1395360769
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000532B84010000000000008880
+t1395360769
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000532B84010000000000015080
+t1395360769
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000532B840100000000000230F0
+t1395360769
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000532B8401000000000000E380
+t1395360769
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000532B84010000000000089380
+t1395360769
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000532B84010000000000017320
+t1395360769
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000532B84010000000000039CD0
+t1395360769
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000532B8401000000000000B0B0
+t1395360769
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000532B84010000000000167E80
+t1395360769
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000532B840100000000000106A0
+t1395360769
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000532B8401000000000001CE40
+t1395360769
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000532B840100000000000740C0
+t1395360769
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000532B8401000000000006CA60
+t1395360769
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000532B8401000000000001BAD0
+t1395360769
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000532B84010000000000084A20
+t1395360769
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+c00000000532B8406000000000000BB48
+t1395360774
+s47944
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000532B8406000000000000514C
+t1395360774
+s20812
+
+N/usr/lib/libSystem.B.dylib
+c0000000052D95CB9000000000000E6D0
+t1389976761
+s59088
+
+N/usr/lib/system/libcache.dylib
+c0000000052D95CCA0000000000012A00
+t1389976778
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000052D95CAB000000000002E320
+t1389976747
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c0000000052D95CB90000000000021860
+t1389976761
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000052D95CC9000000000001B620
+t1389976777
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c0000000052D95CC900000000000BD920
+t1389976777
+s776480
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000052D95CCA000000000000A120
+t1389976778
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c000000005334CA7B000000000001D550
+t1395968635
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c0000000052D95CC90000000000014EE0
+t1389976777
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c0000000052D95CCB0000000000010380
+t1389976779
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000052D95CCB000000000000C4C0
+t1389976779
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c0000000052D95CCA00000000000357A0
+t1389976778
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000052D95CCA000000000000C070
+t1389976778
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c000000005334CA4F0000000000168D00
+t1395968591
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c000000005334CA750000000000010630
+t1395968629
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c000000005334CA7C000000000001DF10
+t1395968636
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c0000000052D95CB90000000000075B00
+t1389976761
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c000000005334CA4F000000000007CCE0
+t1395968591
+s511200
+
+N/usr/lib/system/libsystem_m.dylib
+c0000000052D95CB900000000000766C0
+t1389976761
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c000000005334CA7B0000000000044DC0
+t1395968635
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c0000000052D95CB90000000000021FA0
+t1389976761
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c000000005334CA7B000000000002D920
+t1395968635
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000052D95CCA000000000001E570
+t1389976778
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c000000005334CA67000000000000CC70
+t1395968615
+s52336
+
+N/usr/lib/system/libunc.dylib
+c0000000052D95CC4000000000000C3F0
+t1389976772
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c0000000052D95CCA00000000000199F0
+t1389976778
+s104944
+
+N/var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.pch
+t1397053212
+s5375420
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies139acc3e93f5b841^22c5cc3e93f5b841^---0#1#1#--18"Check dependencies36"0D5DC965-DE32-4596-99C3-BA49676AF887-
+
+CCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418746013.005299
+e418746013.068509
+r1
+xCompileC
+xbuild/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.m248"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.o [1mContactsTouchNormal/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1f83019d8ef5b841^6e88119d8ef5b841^---0#0#1#-19%DVTDocumentLocation2@147"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.m0000000000000000^4891"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.o [1mContactsTouchNormal/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/AppDelegate.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.o36"21E55840-7600-4916-9C2A-228677C41A2F-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418746397.469695
+e418746397.646471
+r1
+xCompileC
+xbuild/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m274"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.o [1mContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1763781d90f5b841^8080a51d90f5b841^---0#0#1#-19%DVTDocumentLocation2@174"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m0000000000000000^4941"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.o [1mContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.o36"19F43FD0-E5AD-451D-90B5-B0C55F1A2E2D-
+b311212C6-8F63-463E-AD7D-A2ED4475F947
+
+CCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418746397.469077
+e418746397.623842
+r1
+xCompileC
+xbuild/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContact.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection176"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m276"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.o [1mContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler21c9781d90f5b841^ffcd9f1d90f5b841^---0#0#1#-19%DVTDocumentLocation2@175"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m0000000000000000^4947"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.o [1mContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Plugins/org.apache.cordova.contacts/CDVContacts.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.o36"30CDDA6F-BA1D-470D-B2BB-7E8C0D0D8573-
+b311212C6-8F63-463E-AD7D-A2ED4475F947
+
+CCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418746013.005812
+e418746013.057670
+r1
+xCompileC
+xbuild/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.m262"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.o [1mContactsTouchNormal/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler44a5019d8ef5b841^dbc30e9d8ef5b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.m0000000000000000^4933"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.o [1mContactsTouchNormal/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.o36"78535D34-77C3-452D-A83D-906F4FA67715-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCompileC build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418746013.004782
+e418746013.027298
+r1
+xCompileC
+xbuild/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/main.m226"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.o [1mContactsTouchNormal/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4563019d8ef5b841^4015079d8ef5b841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/main.m0000000000000000^4833"[1mCompileC[0m build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.o [1mContactsTouchNormal/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/main.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.o36"77D94EEB-D07D-437B-B6A0-BDAB2A65E0F8-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCompileXIB /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.xib
+s418746010.006508
+e418746012.730956
+r1
+xCompileXIB
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.xib
+o2014-04-09 11:20:12.223 Interface Builder Cocoa Touch Tool[10974:303] CFPreferences: user home directory at file:///Users/loiane/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Compiling /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.xib77"[1mCompileXIB[0m [1mContactsTouchNormal/Classes/MainViewController.xib[0m3bc6019a8ef5b841^da20bb9c8ef5b841^-231"2014-04-09 11:20:12.223 Interface Builder Cocoa Touch Tool[10974:303] CFPreferences: user home directory at file:///Users/loiane/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.xib0000000000000000^1087"[1mCompileXIB[0m [1mContactsTouchNormal/Classes/MainViewController.xib[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/MainViewController.nib /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Classes/MainViewController.xib36"1706DB5A-7DE0-410B-8029-8B2FF476E614-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/de.lproj/Localizable.strings ContactsTouchNormal/Resources/de.lproj/Localizable.strings
+s418746010.008685
+e418746010.010300
+r1
+xCopyStringsFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/de.lproj/Localizable.strings
+xContactsTouchNormal/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy ContactsTouchNormal/Resources/de.lproj/Localizable.strings150"[1mCopyStringsFile[0m build/emulator/ContactsTouchNormal.app/de.lproj/Localizable.strings ContactsTouchNormal/Resources/de.lproj/Localizable.strings7158029a8ef5b841^59a3029a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@164"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/de.lproj/Localizable.strings0000000000000000^843"[1mCopyStringsFile[0m build/emulator/ContactsTouchNormal.app/de.lproj/Localizable.strings ContactsTouchNormal/Resources/de.lproj/Localizable.strings    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/de.lproj -- ContactsTouchNormal/Resources/de.lproj/Localizable.strings36"533AA795-8A3A-4E99-AE07-6D24A89791AF-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/en.lproj/Localizable.strings ContactsTouchNormal/Resources/en.lproj/Localizable.strings
+s418746010.006119
+e418746010.008055
+r1
+xCopyStringsFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/en.lproj/Localizable.strings
+xContactsTouchNormal/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy ContactsTouchNormal/Resources/en.lproj/Localizable.strings150"[1mCopyStringsFile[0m build/emulator/ContactsTouchNormal.app/en.lproj/Localizable.strings ContactsTouchNormal/Resources/en.lproj/Localizable.strings6cb3019a8ef5b841^0610029a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@164"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/en.lproj/Localizable.strings0000000000000000^843"[1mCopyStringsFile[0m build/emulator/ContactsTouchNormal.app/en.lproj/Localizable.strings ContactsTouchNormal/Resources/en.lproj/Localizable.strings    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/en.lproj -- ContactsTouchNormal/Resources/en.lproj/Localizable.strings36"9C4565ED-3B92-4DCA-A4F8-6EDAABE6751E-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-40.png build/emulator/ContactsTouchNormal.app/icon-40.png
+s418746010.012995
+e418746010.014698
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-40.png
+xbuild/emulator/ContactsTouchNormal.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/ContactsTouchNormal.app/icon-40.png117"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-40.png build/emulator/ContactsTouchNormal.app/icon-40.png096f039a8ef5b841^e8bf039a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-40.png003424cfdfffdf42^908"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-40.png build/emulator/ContactsTouchNormal.app/icon-40.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-40.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"09666EAF-DFF4-48E8-B512-C1A4BEC61773-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-40@2x.png build/emulator/ContactsTouchNormal.app/icon-40@2x.png
+s418746010.003972
+e418746010.005929
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-40@2x.png
+xbuild/emulator/ContactsTouchNormal.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/ContactsTouchNormal.app/icon-40@2x.png123"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-40@2x.png build/emulator/ContactsTouchNormal.app/icon-40@2x.png6919019a8ef5b841^8882019a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-40@2x.png003424cfdfffdf42^917"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-40@2x.png build/emulator/ContactsTouchNormal.app/icon-40@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-40@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"221E3CBE-5F52-4C64-BBCB-2D9D4175C722-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-50.png build/emulator/ContactsTouchNormal.app/icon-50.png
+s418746010.007073
+e418746010.008564
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-50.png
+xbuild/emulator/ContactsTouchNormal.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/ContactsTouchNormal.app/icon-50.png117"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-50.png build/emulator/ContactsTouchNormal.app/icon-50.pngc1e1019a8ef5b841^af42029a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-50.png003424cfdfffdf42^908"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-50.png build/emulator/ContactsTouchNormal.app/icon-50.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-50.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"3C4B0129-48CC-4714-9BF0-94E34C828A36-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-50@2x.png build/emulator/ContactsTouchNormal.app/icon-50@2x.png
+s418746010.015847
+e418746010.017165
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-50@2x.png
+xbuild/emulator/ContactsTouchNormal.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/ContactsTouchNormal.app/icon-50@2x.png123"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-50@2x.png build/emulator/ContactsTouchNormal.app/icon-50@2x.pnga228049a8ef5b841^e562049a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-50@2x.png003424cfdfffdf42^917"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-50@2x.png build/emulator/ContactsTouchNormal.app/icon-50@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-50@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"5EABA0C9-ED96-4929-BF8F-313FAC495A5C-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-60.png build/emulator/ContactsTouchNormal.app/icon-60.png
+s418746010.014227
+e418746010.015325
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-60.png
+xbuild/emulator/ContactsTouchNormal.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/ContactsTouchNormal.app/icon-60.png117"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-60.png build/emulator/ContactsTouchNormal.app/icon-60.png0fb7039a8ef5b841^89f0039a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-60.png003424cfdfffdf42^908"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-60.png build/emulator/ContactsTouchNormal.app/icon-60.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-60.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"9A2E86FD-1384-4BC5-A776-C9E55884183F-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-60@2x.png build/emulator/ContactsTouchNormal.app/icon-60@2x.png
+s418746010.008241
+e418746010.009722
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-60@2x.png
+xbuild/emulator/ContactsTouchNormal.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/ContactsTouchNormal.app/icon-60@2x.png123"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-60@2x.png build/emulator/ContactsTouchNormal.app/icon-60@2x.pngeb38029a8ef5b841^aa7d029a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-60@2x.png003424cfdfffdf42^917"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-60@2x.png build/emulator/ContactsTouchNormal.app/icon-60@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-60@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"9494E2D0-62A2-4453-933A-F1BAF64AD203-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-72.png build/emulator/ContactsTouchNormal.app/icon-72.png
+s418746010.004131
+e418746010.005535
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-72.png
+xbuild/emulator/ContactsTouchNormal.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/ContactsTouchNormal.app/icon-72.png117"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-72.png build/emulator/ContactsTouchNormal.app/icon-72.png3928019a8ef5b841^5d6d019a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-72.png003424cfdfffdf42^908"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-72.png build/emulator/ContactsTouchNormal.app/icon-72.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-72.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"30C47C98-1CDF-4546-9C53-45702E47489F-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-72@2x.png build/emulator/ContactsTouchNormal.app/icon-72@2x.png
+s418746010.017335
+e418746010.019477
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-72@2x.png
+xbuild/emulator/ContactsTouchNormal.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/ContactsTouchNormal.app/icon-72@2x.png123"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-72@2x.png build/emulator/ContactsTouchNormal.app/icon-72@2x.png1782049a8ef5b841^65fb049a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-72@2x.png003424cfdfffdf42^917"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-72@2x.png build/emulator/ContactsTouchNormal.app/icon-72@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-72@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"ED273E78-D7EA-4D17-9EB7-0EE206C2E77D-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-76.png build/emulator/ContactsTouchNormal.app/icon-76.png
+s418746010.003839
+e418746010.005720
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-76.png
+xbuild/emulator/ContactsTouchNormal.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/ContactsTouchNormal.app/icon-76.png117"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-76.png build/emulator/ContactsTouchNormal.app/icon-76.pngd80f019a8ef5b841^c574019a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-76.png003424cfdfffdf42^908"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-76.png build/emulator/ContactsTouchNormal.app/icon-76.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-76.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"852FC5C8-F3C0-4D9C-AA7E-687183EC35E1-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-76@2x.png build/emulator/ContactsTouchNormal.app/icon-76@2x.png
+s418746010.017051
+e418746010.018662
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-76@2x.png
+xbuild/emulator/ContactsTouchNormal.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/ContactsTouchNormal.app/icon-76@2x.png123"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-76@2x.png build/emulator/ContactsTouchNormal.app/icon-76@2x.png9774049a8ef5b841^e0f6049a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-76@2x.png003424cfdfffdf42^917"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-76@2x.png build/emulator/ContactsTouchNormal.app/icon-76@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-76@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"61C6AC88-DE5F-4652-9FA4-1217691B7B70-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-small.png build/emulator/ContactsTouchNormal.app/icon-small.png
+s418746010.008841
+e418746010.010501
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-small.png
+xbuild/emulator/ContactsTouchNormal.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/ContactsTouchNormal.app/icon-small.png123"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-small.png build/emulator/ContactsTouchNormal.app/icon-small.pngf660029a8ef5b841^deaf029a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-small.png003424cfdfffdf42^917"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-small.png build/emulator/ContactsTouchNormal.app/icon-small.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-small.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"8ECBB535-EE36-4834-B6B2-C565C4C6CA20-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon-small@2x.png build/emulator/ContactsTouchNormal.app/icon-small@2x.png
+s418746010.011682
+e418746010.012859
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon-small@2x.png
+xbuild/emulator/ContactsTouchNormal.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/ContactsTouchNormal.app/icon-small@2x.png129"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-small@2x.png build/emulator/ContactsTouchNormal.app/icon-small@2x.png0e15039a8ef5b841^fa47039a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@162"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon-small@2x.png003424cfdfffdf42^926"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon-small@2x.png build/emulator/ContactsTouchNormal.app/icon-small@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon-small@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"6CEDFB16-E4AD-4D93-9090-262526536E35-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon.png build/emulator/ContactsTouchNormal.app/icon.png
+s418746010.004697
+e418746010.005928
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon.png
+xbuild/emulator/ContactsTouchNormal.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/ContactsTouchNormal.app/icon.png111"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon.png build/emulator/ContactsTouchNormal.app/icon.png1041019a8ef5b841^e597019a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@153"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon.png003424cfdfffdf42^899"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon.png build/emulator/ContactsTouchNormal.app/icon.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"36512933-8405-4EED-A403-1F9D76103B62-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/icons/icon@2x.png build/emulator/ContactsTouchNormal.app/icon@2x.png
+s418746010.006151
+e418746010.007524
+r1
+xCpResource
+xContactsTouchNormal/Resources/icons/icon@2x.png
+xbuild/emulator/ContactsTouchNormal.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/ContactsTouchNormal.app/icon@2x.png117"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon@2x.png build/emulator/ContactsTouchNormal.app/icon@2x.pngf7ae019a8ef5b841^e1ed019a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/icon@2x.png003424cfdfffdf42^908"[1mCpResource[0m ContactsTouchNormal/Resources/icons/icon@2x.png build/emulator/ContactsTouchNormal.app/icon@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/icons/icon@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"76B2168E-2B33-4FD0-99A9-7CB848107D15-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/splash/Default-568h@2x~iphone.png build/emulator/ContactsTouchNormal.app/Default-568h@2x~iphone.png
+s418746010.015666
+e418746010.016869
+r1
+xCpResource
+xContactsTouchNormal/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/ContactsTouchNormal.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/emulator/ContactsTouchNormal.app/Default-568h@2x~iphone.png148"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-568h@2x~iphone.png build/emulator/ContactsTouchNormal.app/Default-568h@2x~iphone.png6423049a8ef5b841^fc51049a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@171"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-568h@2x~iphone.png003424cfdfffdf42^955"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-568h@2x~iphone.png build/emulator/ContactsTouchNormal.app/Default-568h@2x~iphone.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-568h@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"55FB0D2F-7E78-4E62-BFB3-193D7A530A84-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/ContactsTouchNormal.app/Default-Landscape@2x~ipad.png
+s418746010.009887
+e418746010.011445
+r1
+xCpResource
+xContactsTouchNormal/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/ContactsTouchNormal.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/emulator/ContactsTouchNormal.app/Default-Landscape@2x~ipad.png154"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/ContactsTouchNormal.app/Default-Landscape@2x~ipad.png13b7029a8ef5b841^a9f5029a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@174"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-Landscape@2x~ipad.png003424cfdfffdf42^964"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/ContactsTouchNormal.app/Default-Landscape@2x~ipad.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-Landscape@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"6A46D7BC-189E-42EE-BAE0-A83023207975-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/splash/Default-Landscape~ipad.png build/emulator/ContactsTouchNormal.app/Default-Landscape~ipad.png
+s418746010.010464
+e418746010.012145
+r1
+xCpResource
+xContactsTouchNormal/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/ContactsTouchNormal.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/emulator/ContactsTouchNormal.app/Default-Landscape~ipad.png148"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-Landscape~ipad.png build/emulator/ContactsTouchNormal.app/Default-Landscape~ipad.png2dcc029a8ef5b841^1b0e039a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@171"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-Landscape~ipad.png003424cfdfffdf42^955"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-Landscape~ipad.png build/emulator/ContactsTouchNormal.app/Default-Landscape~ipad.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-Landscape~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"1DAE01F4-8B27-4DD7-AAF1-323384A1C4F3-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/ContactsTouchNormal.app/Default-Portrait@2x~ipad.png
+s418746010.011126
+e418746010.012643
+r1
+xCpResource
+xContactsTouchNormal/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/ContactsTouchNormal.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/emulator/ContactsTouchNormal.app/Default-Portrait@2x~ipad.png152"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/ContactsTouchNormal.app/Default-Portrait@2x~ipad.pngb7ee029a8ef5b841^c538039a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@173"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-Portrait@2x~ipad.png003424cfdfffdf42^961"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/ContactsTouchNormal.app/Default-Portrait@2x~ipad.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-Portrait@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"66D15A01-D71B-4A92-89DD-47CB6D191677-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/splash/Default-Portrait~ipad.png build/emulator/ContactsTouchNormal.app/Default-Portrait~ipad.png
+s418746010.012367
+e418746010.014032
+r1
+xCpResource
+xContactsTouchNormal/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/ContactsTouchNormal.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/emulator/ContactsTouchNormal.app/Default-Portrait~ipad.png146"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-Portrait~ipad.png build/emulator/ContactsTouchNormal.app/Default-Portrait~ipad.pngd847039a8ef5b841^0bb4039a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@170"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default-Portrait~ipad.png003424cfdfffdf42^952"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default-Portrait~ipad.png build/emulator/ContactsTouchNormal.app/Default-Portrait~ipad.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default-Portrait~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"E365DDC8-7107-4D09-B150-94EAB52A5C1C-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/splash/Default@2x~iphone.png build/emulator/ContactsTouchNormal.app/Default@2x~iphone.png
+s418746010.013512
+e418746010.014784
+r1
+xCpResource
+xContactsTouchNormal/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/ContactsTouchNormal.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/emulator/ContactsTouchNormal.app/Default@2x~iphone.png138"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default@2x~iphone.png build/emulator/ContactsTouchNormal.app/Default@2x~iphone.pngd789039a8ef5b841^18cc039a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@166"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default@2x~iphone.png003424cfdfffdf42^940"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default@2x~iphone.png build/emulator/ContactsTouchNormal.app/Default@2x~iphone.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"1E3C8FA2-6FBB-469C-AF4E-1A3ED20BF840-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CCpResource ContactsTouchNormal/Resources/splash/Default~iphone.png build/emulator/ContactsTouchNormal.app/Default~iphone.png
+s418746010.015376
+e418746010.016768
+r1
+xCpResource
+xContactsTouchNormal/Resources/splash/Default~iphone.png
+xbuild/emulator/ContactsTouchNormal.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/emulator/ContactsTouchNormal.app/Default~iphone.png132"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default~iphone.png build/emulator/ContactsTouchNormal.app/Default~iphone.pngfa08049a8ef5b841^7f4b049a8ef5b841^---0#0#1#-19%DVTDocumentLocation2@163"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Default~iphone.png003424cfdfffdf42^931"[1mCpResource[0m ContactsTouchNormal/Resources/splash/Default~iphone.png build/emulator/ContactsTouchNormal.app/Default~iphone.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/Resources/splash/Default~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"D11613F3-9E38-47D6-9697-E718FA548CF8-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CGenerateDSYMFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app.dSYM /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal
+s418747202.528296
+e418747202.567565
+r1
+xGenerateDSYMFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app.dSYM
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Generate /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app.dSYM135"[1mGenerateDSYMFile[0m [1mbuild/emulator/ContactsTouchNormal.app.dSYM[0m build/emulator/ContactsTouchNormal.app/ContactsTouchNormalb553874293f5b841^3e59914293f5b841^---0#0#1#-19%DVTDocumentLocation2@150"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app.dSYM/0000000000000000^933"[1mGenerateDSYMFile[0m [1mbuild/emulator/ContactsTouchNormal.app.dSYM[0m build/emulator/ContactsTouchNormal.app/ContactsTouchNormal    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app.dSYM36"130FFCD5-14FE-4143-B947-AC87E92113AA-
+b95D27C7D-CC52-4722-9D5D-415BAFCA4CEF
+
+CLd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal normal i386
+s418746397.649034
+e418746397.700645
+r1
+xLd
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal
+xnormal
+xi386
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/ContactsTouchNormal.LinkFileList
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/main.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/AppDelegate.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/MainViewController.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContacts.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/CDVContact.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Link /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal81"[1mLd[0m build/emulator/ContactsTouchNormal.app/ContactsTouchNormal normal i386d23aa61d90f5b841^8d60b31d90f5b841^---0#0#1#--2345"[1mLd[0m build/emulator/ContactsTouchNormal.app/ContactsTouchNormal normal i386    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -filelist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/ContactsTouchNormal.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -weak_framework AddressBook -weak_framework AddressBookUI -Xlinker -dependency_info -Xlinker /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Objects-normal/i386/ContactsTouchNormal_dependency_info.dat -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/ContactsTouchNormal36"F517F7F8-3AAD-49B8-BC95-9890B72DB159-
+b311212C6-8F63-463E-AD7D-A2ED4475F947
+
+CPhaseScriptExecution Copy\ www\ directory /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Script-304B58A110DAC018002A0835.sh
+s418747198.803741
+e418747202.521730
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m3.700s
+ouser	0m1.270s
+osys	0m2.127s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'164"[1mPhaseScriptExecution[0m Copy\ www\ directory build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Script-304B58A110DAC018002A0835.sh931ace3e93f5b841^0890854293f5b841^-42"real	0m3.700suser	0m1.270ssys	0m2.127s3(21%IDEActivityLogMessage2@14"real	0m3.700s-418747202#1#14#-0#-----2@14"user	0m1.270s-418747202#15#14#-0#-----2@13"sys	0m2.127s-418747202#29#13#-0#-----0#0#1#--500"[1mPhaseScriptExecution[0m Copy\ www\ directory build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Script-304B58A110DAC018002A0835.sh    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    /bin/sh -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/Script-304B58A110DAC018002A0835.sh36"540DE00F-B5C4-4074-A9C2-453533D0F218-
+b95D27C7D-CC52-4722-9D5D-415BAFCA4CEF
+
+CProcessInfoPlistFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Info.plist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Info.plist
+s418747198.800547
+e418747198.802525
+r1
+xProcessInfoPlistFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Info.plist
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Process /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Info.plist137"[1mProcessInfoPlistFile[0m build/emulator/ContactsTouchNormal.app/Info.plist [1mContactsTouchNormal/ContactsTouchNormal-Info.plist[0m1805cd3e93f5b841^5872cd3e93f5b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Info.plist0000000000000000^1082"[1mProcessInfoPlistFile[0m build/emulator/ContactsTouchNormal.app/Info.plist [1mContactsTouchNormal/ContactsTouchNormal-Info.plist[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Info.plist -genpkginfo /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app/Info.plist36"CA794EC1-79EC-4F8A-BE25-2E8840707E5D-
+b95D27C7D-CC52-4722-9D5D-415BAFCA4CEF
+
+CProcessPCH /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.pch ContactsTouchNormal/ContactsTouchNormal-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418746012.731896
+e418746013.003877
+r1
+xProcessPCH
+x/var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.pch
+xContactsTouchNormal/ContactsTouchNormal-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile ContactsTouchNormal/ContactsTouchNormal-Prefix.pch344"[1mProcessPCH[0m /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.pch ContactsTouchNormal/ContactsTouchNormal-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler357cbb9c8ef5b841^e700019d8ef5b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Prefix.pch0000000000000000^4769"[1mProcessPCH[0m /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.pch ContactsTouchNormal/ContactsTouchNormal-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/ContactsTouchNormal-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/ContactsTouchNormal.build/Debug-iphonesimulator/ContactsTouchNormal.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator --serialize-diagnostics /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.d -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/ContactsTouchNormal/ContactsTouchNormal-Prefix.pch -o /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchNormal-Prefix-gcyixvutakwyjxcjcpfvthubjsmy/ContactsTouchNormal-Prefix.pch.pch36"2611C90C-AB35-46A2-A10D-F3A7056559E2-
+bD9CB5A32-F8AA-4E77-9A38-4438636D7F99
+
+CTouch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app
+s418747202.568795
+e418747202.573793
+r1
+xTouch
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Touch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app52"[1mTouch[0m build/emulator/ContactsTouchNormal.app36b0914293f5b841^b0e4924293f5b841^---0#0#1#--606"[1mTouch[0m build/emulator/ContactsTouchNormal.app    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchNormal/platforms/ios/build/emulator/ContactsTouchNormal.app36"1E9F17AB-D3A9-486D-BC45-16B9D7FCDFAD-
+b95D27C7D-CC52-4722-9D5D-415BAFCA4CEF
+

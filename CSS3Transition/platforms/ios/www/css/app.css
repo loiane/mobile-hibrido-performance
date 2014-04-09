@@ -1,0 +1,30 @@
+.page {
+    padding-top: 10px;
+    position: absolute;
+    width: 200px;
+    height:300px;
+    top:30px;
+    left:50;
+    //transform: translate3d(0,0,0);
+}
+
+.page-left {
+    //-webkit-transform: translate3d(-300px, 0, 0);
+    //transform: translate3d(-301px, 0, 0);
+    left: 50px;
+}
+.page-center {
+    //-webkit-transform: translate3d(0, 0, 0);
+    //transform: translate3d(0, 0, 0);
+    left: 275px;
+}
+.page-right {
+    //-webkit-transform: translate3d(301px, 0, 0);
+    //transform: translate3d(300px, 0, 0);
+    left: 500px;
+}
+
+.transition {
+    //-webkit-transition-duration: .25s;
+    transition-duration: .25s;
+}

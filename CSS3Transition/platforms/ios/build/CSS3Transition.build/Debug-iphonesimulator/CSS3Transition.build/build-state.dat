@@ -1,0 +1,1182 @@
+TCSS3Transition
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Info.plist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Script-304B58A110DAC018002A0835.sh
+cCpResource CSS3Transition/Resources/icons/icon-76.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76.png
+cCpResource CSS3Transition/Resources/icons/icon-40@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40@2x.png
+cCpResource CSS3Transition/Resources/icons/icon-72.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72.png
+cCpResource CSS3Transition/Resources/icons/icon.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon.png
+cCpResource CSS3Transition/Resources/icons/icon@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon@2x.png
+cCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/en.lproj/Localizable.strings CSS3Transition/Resources/en.lproj/Localizable.strings
+cCompileXIB /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.xib
+cCpResource CSS3Transition/Resources/icons/icon-50.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50.png
+cCpResource CSS3Transition/Resources/icons/icon-60@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60@2x.png
+cCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/de.lproj/Localizable.strings CSS3Transition/Resources/de.lproj/Localizable.strings
+cCpResource CSS3Transition/Resources/icons/icon-small.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small.png
+cCpResource CSS3Transition/Resources/splash/Default-Landscape@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape@2x~ipad.png
+cCpResource CSS3Transition/Resources/splash/Default-Landscape~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape~ipad.png
+cCpResource CSS3Transition/Resources/splash/Default-Portrait@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait@2x~ipad.png
+cCpResource CSS3Transition/Resources/icons/icon-small@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small@2x.png
+cCpResource CSS3Transition/Resources/splash/Default-Portrait~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait~ipad.png
+cCpResource CSS3Transition/Resources/icons/icon-40.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40.png
+cCpResource CSS3Transition/Resources/splash/Default@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default@2x~iphone.png
+cCpResource CSS3Transition/Resources/icons/icon-60.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60.png
+cCpResource CSS3Transition/Resources/splash/Default~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default~iphone.png
+cCpResource CSS3Transition/Resources/splash/Default-568h@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-568h@2x~iphone.png
+cCpResource CSS3Transition/Resources/icons/icon-50@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50@2x.png
+cCpResource CSS3Transition/Resources/icons/icon-76@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76@2x.png
+cCpResource CSS3Transition/Resources/icons/icon-72@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72@2x.png
+cProcessPCH /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.pch CSS3Transition/CSS3Transition-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition normal i386
+cGenerateDSYMFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition
+cTouch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Info.plist
+c0000000053435BD60000000000000A0D
+t1396923350
+s2573
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Prefix.pch
+c00000000534357B200000000000003CD
+t1396922290
+s973
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.h
+c00000000534357B200000000000005C1
+t1396922290
+s1473
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.m
+c00000000534357B200000000000013B3
+t1396922290
+s5043
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.h
+c00000000534357B200000000000004D4
+t1396922290
+s1236
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.m
+c00000000534357B2000000000000126F
+t1396922290
+s4719
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.xib
+c00000000534357B20000000000001759
+t1396922290
+s5977
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/de.lproj/Localizable.strings
+c00000000534357B200000000000004C0
+t1396922290
+s1216
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/en.lproj/Localizable.strings
+c00000000534357B200000000000004AB
+t1396922290
+s1195
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-40.png
+c00000000534357B20000000000000FF2
+t1396922290
+s4082
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-40@2x.png
+c00000000534357B20000000000001CF3
+t1396922290
+s7411
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-50.png
+c00000000534357B2000000000000130A
+t1396922290
+s4874
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-50@2x.png
+c00000000534357B2000000000000258B
+t1396922290
+s9611
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-60.png
+c00000000534357B200000000000016B3
+t1396922290
+s5811
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-60@2x.png
+c00000000534357B20000000000002E94
+t1396922290
+s11924
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-72.png
+c00000000534357B20000000000001350
+t1396922290
+s4944
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-72@2x.png
+c00000000534357B20000000000002DBA
+t1396922290
+s11706
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-76.png
+c00000000534357B20000000000001B71
+t1396922290
+s7025
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-76@2x.png
+c00000000534357B20000000000003B9E
+t1396922290
+s15262
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-small.png
+c00000000534357B20000000000000CDE
+t1396922290
+s3294
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-small@2x.png
+c00000000534357B200000000000015E8
+t1396922290
+s5608
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon.png
+c00000000534357B20000000000000F3E
+t1396922290
+s3902
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon@2x.png
+c00000000534357B20000000000001EBD
+t1396922290
+s7869
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-568h@2x~iphone.png
+c00000000534357B200000000000085B1
+t1396922290
+s34225
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000534357B20000000000033D0A
+t1396922290
+s212234
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-Landscape~ipad.png
+c00000000534357B200000000000166A2
+t1396922290
+s91810
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000534357B20000000000033F7C
+t1396922290
+s212860
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-Portrait~ipad.png
+c00000000534357B20000000000016641
+t1396922290
+s91713
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default@2x~iphone.png
+c00000000534357B20000000000007323
+t1396922290
+s29475
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default~iphone.png
+c00000000534357B2000000000000289A
+t1396922290
+s10394
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/main.m
+c00000000534357B20000000000000460
+t1396922290
+s1120
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.o
+t1396922303
+s74148
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/CSS3Transition.LinkFileList
+c00000000534357BD0000000000000252
+t1396922301
+s594
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.o
+t1396922303
+s50956
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.o
+t1396922303
+s3108
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Script-304B58A110DAC018002A0835.sh
+c00000000534357BD000000000000002D
+t1396922301
+s45
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app
+t1396923356
+s1020
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM
+t1396922303
+s102
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition
+t1396922303
+s286480
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-568h@2x~iphone.png
+t1396922301
+s34225
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape@2x~ipad.png
+t1396922301
+s212234
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape~ipad.png
+t1396922301
+s91810
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait@2x~ipad.png
+t1396922301
+s212860
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait~ipad.png
+t1396922301
+s91713
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default@2x~iphone.png
+t1396922301
+s29475
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default~iphone.png
+t1396922301
+s10394
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Info.plist
+t1396923355
+s1289
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/MainViewController.nib
+t1396922302
+s1332
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/PkgInfo
+t2
+s0
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/de.lproj/Localizable.strings
+t1396922301
+s280
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/en.lproj/Localizable.strings
+t1396922301
+s166
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40.png
+t1396922301
+s4082
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40@2x.png
+t1396922301
+s7411
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50.png
+t1396922301
+s4874
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50@2x.png
+t1396922302
+s9611
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60.png
+t1396922301
+s5811
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60@2x.png
+t1396922301
+s11924
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72.png
+t1396922301
+s4944
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72@2x.png
+t1396922302
+s11706
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76.png
+t1396922301
+s7025
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76@2x.png
+t1396922302
+s15262
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small.png
+t1396922301
+s3294
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small@2x.png
+t1396922301
+s5608
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon.png
+t1396922301
+s3902
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon@2x.png
+t1396922301
+s7869
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+c00000000534357BC0000000000000CDD
+t1396922300
+s3293
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+c00000000534357BC00000000000008BA
+t1396922300
+s2234
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+c00000000534357BC00000000000004B5
+t1396922300
+s1205
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+c00000000534357BC0000000000000503
+t1396922300
+s1283
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+c00000000534357BC00000000000007E6
+t1396922300
+s2022
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+c00000000534357BC0000000000000892
+t1396922300
+s2194
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+c00000000534357BC0000000000000C13
+t1396922300
+s3091
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+c00000000534357BC0000000000000408
+t1396922300
+s1032
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+c00000000534357BC0000000000000ACC
+t1396922300
+s2764
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+c00000000534357BC00000000000004B4
+t1396922300
+s1204
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+c00000000534357BC00000000000003A0
+t1396922300
+s928
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/libCordova.a
+c00000000534357BD00000000000D34C0
+t1396922301
+s865472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000532B83DF00000000000003B4
+t1395360735
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532B83E5000000000000019E
+t1395360741
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000532B83E70000000000484210
+t1395360743
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000532B83E70000000000098030
+t1395360743
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000532B83E60000000000059340
+t1395360742
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000532B83E800000000005B82F0
+t1395360744
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000532B83E80000000000446820
+t1395360744
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000532B83E700000000000F1A80
+t1395360743
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000532B83E8000000000013B8C0
+t1395360744
+s1292480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000532B83EA000000000088D8C0
+t1395360746
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000532B83EA00000000001BE790
+t1395360746
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000532B83EF0000000001F1DE10
+t1395360751
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000532B83F900000000002BC360
+t1395360761
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000532B84000000000000002338
+t1395360768
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000532B8401000000000008D370
+t1395360769
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000532B84000000000000392E20
+t1395360768
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c000000005334CA7B00000000000141F0
+t1395968635
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000532B84010000000000014A80
+t1395360769
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000532B84010000000000033BA0
+t1395360769
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000532B8401000000000001CFB0
+t1395360769
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000532B8401000000000001B2B0
+t1395360769
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000532B840100000000000C9570
+t1395360769
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000532B84010000000000063280
+t1395360769
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000532B84010000000000008880
+t1395360769
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000532B84010000000000015080
+t1395360769
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000532B840100000000000230F0
+t1395360769
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000532B8401000000000000E380
+t1395360769
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000532B84010000000000089380
+t1395360769
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000532B84010000000000017320
+t1395360769
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000532B84010000000000039CD0
+t1395360769
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000532B8401000000000000B0B0
+t1395360769
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000532B84010000000000167E80
+t1395360769
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000532B840100000000000106A0
+t1395360769
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000532B8401000000000001CE40
+t1395360769
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000532B840100000000000740C0
+t1395360769
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000532B8401000000000006CA60
+t1395360769
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000532B8401000000000001BAD0
+t1395360769
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000532B84010000000000084A20
+t1395360769
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+c00000000532B8406000000000000BB48
+t1395360774
+s47944
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000532B8406000000000000514C
+t1395360774
+s20812
+
+N/usr/lib/libSystem.B.dylib
+c0000000052D95CB9000000000000E6D0
+t1389976761
+s59088
+
+N/usr/lib/system/libcache.dylib
+c0000000052D95CCA0000000000012A00
+t1389976778
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000052D95CAB000000000002E320
+t1389976747
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c0000000052D95CB90000000000021860
+t1389976761
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000052D95CC9000000000001B620
+t1389976777
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c0000000052D95CC900000000000BD920
+t1389976777
+s776480
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000052D95CCA000000000000A120
+t1389976778
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c000000005334CA7B000000000001D550
+t1395968635
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c0000000052D95CC90000000000014EE0
+t1389976777
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c0000000052D95CCB0000000000010380
+t1389976779
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000052D95CCB000000000000C4C0
+t1389976779
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c0000000052D95CCA00000000000357A0
+t1389976778
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000052D95CCA000000000000C070
+t1389976778
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c000000005334CA4F0000000000168D00
+t1395968591
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c000000005334CA750000000000010630
+t1395968629
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c000000005334CA7C000000000001DF10
+t1395968636
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c0000000052D95CB90000000000075B00
+t1389976761
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c000000005334CA4F000000000007CCE0
+t1395968591
+s511200
+
+N/usr/lib/system/libsystem_m.dylib
+c0000000052D95CB900000000000766C0
+t1389976761
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c000000005334CA7B0000000000044DC0
+t1395968635
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c0000000052D95CB90000000000021FA0
+t1389976761
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c000000005334CA7B000000000002D920
+t1395968635
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000052D95CCA000000000001E570
+t1389976778
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c000000005334CA67000000000000CC70
+t1395968615
+s52336
+
+N/usr/lib/system/libunc.dylib
+c0000000052D95CC4000000000000C3F0
+t1389976772
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c0000000052D95CCA00000000000199F0
+t1389976778
+s104944
+
+N/var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.pch
+t1396922303
+s5375080
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies51a2f15b93f3b841^bccff15b93f3b841^---0#1#1#--18"Check dependencies36"7B51D3BD-E68C-4227-B101-FD442527695E-
+
+CCompileC build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418615103.422961
+e418615103.491050
+r1
+xCompileC
+xbuild/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.m233"[1mCompileC[0m build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.o [1mCSS3Transition/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler27676c3f8ff3b841^17b77d3f8ff3b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.m0000000000000000^4672"[1mCompileC[0m build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.o [1mCSS3Transition/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=109 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/AppDelegate.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.o36"6C3AF0E8-13AF-416A-872C-D8ADCA536EE1-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCompileC build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418615103.423391
+e418615103.479837
+r1
+xCompileC
+xbuild/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.m247"[1mCompileC[0m build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.o [1mCSS3Transition/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0a856c3f8ff3b841^aad67a3f8ff3b841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.m0000000000000000^4714"[1mCompileC[0m build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.o [1mCSS3Transition/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=109 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.o36"E93C39B3-4065-42E7-9ECB-104EE1322D84-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCompileC build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418615103.422543
+e418615103.442392
+r1
+xCompileC
+xbuild/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/main.m211"[1mCompileC[0m build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.o [1mCSS3Transition/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler724e6c3f8ff3b841^5648713f8ff3b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/main.m0000000000000000^4614"[1mCompileC[0m build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.o [1mCSS3Transition/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=109 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/main.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.o36"81B0795C-DBE6-4E8E-9C23-09321B30C96E-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCompileXIB /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.xib
+s418615101.970098
+e418615103.142336
+r1
+xCompileXIB
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.xib
+o2014-04-07 22:58:22.664 Interface Builder Cocoa Touch Tool[7686:303] CFPreferences: user home directory at file:///Users/loiane/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compiling /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.xib72"[1mCompileXIB[0m [1mCSS3Transition/Classes/MainViewController.xib[0m3274f83d8ff3b841^7171243f8ff3b841^-230"2014-04-07 22:58:22.664 Interface Builder Cocoa Touch Tool[7686:303] CFPreferences: user home directory at file:///Users/loiane/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@146"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.xib0000000000000000^1057"[1mCompileXIB[0m [1mCSS3Transition/Classes/MainViewController.xib[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/MainViewController.nib /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Classes/MainViewController.xib36"E62386FD-93AB-412F-8EEC-B0896BAF1DA1-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/de.lproj/Localizable.strings CSS3Transition/Resources/de.lproj/Localizable.strings
+s418615101.976856
+e418615101.978980
+r1
+xCopyStringsFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/de.lproj/Localizable.strings
+xCSS3Transition/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy CSS3Transition/Resources/de.lproj/Localizable.strings234"[1mCopyStringsFile[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/de.lproj/Localizable.strings CSS3Transition/Resources/de.lproj/Localizable.strings6329fa3d8ff3b841^cba0fa3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/de.lproj/Localizable.strings0000000000000000^907"[1mCopyStringsFile[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/de.lproj/Localizable.strings CSS3Transition/Resources/de.lproj/Localizable.strings    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/de.lproj -- CSS3Transition/Resources/de.lproj/Localizable.strings36"839E61EB-CD28-4670-A59E-030644B4B50F-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/en.lproj/Localizable.strings CSS3Transition/Resources/en.lproj/Localizable.strings
+s418615101.969068
+e418615101.975643
+r1
+xCopyStringsFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/en.lproj/Localizable.strings
+xCSS3Transition/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy CSS3Transition/Resources/en.lproj/Localizable.strings234"[1mCopyStringsFile[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/en.lproj/Localizable.strings CSS3Transition/Resources/en.lproj/Localizable.strings1502f93d8ff3b841^e7c5f93d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/en.lproj/Localizable.strings0000000000000000^907"[1mCopyStringsFile[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/en.lproj/Localizable.strings CSS3Transition/Resources/en.lproj/Localizable.strings    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/en.lproj -- CSS3Transition/Resources/en.lproj/Localizable.strings36"7FD0D22D-8A8F-4B28-B16F-080CB2DE6B44-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-40.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40.png
+s418615101.988177
+e418615101.994904
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-40.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40.png209"[1mCpResource[0m CSS3Transition/Resources/icons/icon-40.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40.png[0m61e0fd3d8ff3b841^2a1ffe3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@146"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40.png003424cfdfffdf42^975"[1mCpResource[0m CSS3Transition/Resources/icons/icon-40.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-40.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"15C8A5D7-6615-44CD-9FD5-B7A957820F75-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-40@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40@2x.png
+s418615101.964310
+e418615101.966099
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-40@2x.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40@2x.png215"[1mCpResource[0m CSS3Transition/Resources/icons/icon-40@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40@2x.png[0maaf1f63d8ff3b841^5001f83d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40@2x.png003424cfdfffdf42^984"[1mCpResource[0m CSS3Transition/Resources/icons/icon-40@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-40@2x.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-40@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"7D07E717-086F-449D-99DC-094C5AB6D188-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-50.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50.png
+s418615101.971894
+e418615101.974800
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-50.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50.png209"[1mCpResource[0m CSS3Transition/Resources/icons/icon-50.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50.png[0m37e3f83d8ff3b841^4b90f93d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@146"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50.png003424cfdfffdf42^975"[1mCpResource[0m CSS3Transition/Resources/icons/icon-50.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-50.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"F149BE81-C3F3-4C64-A69E-AB12AFAABCC7-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-50@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50@2x.png
+s418615101.996195
+e418615102.000995
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-50@2x.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50@2x.png215"[1mCpResource[0m CSS3Transition/Resources/icons/icon-50@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50@2x.png[0m8eadff3d8ff3b841^4242003e8ff3b841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50@2x.png003424cfdfffdf42^984"[1mCpResource[0m CSS3Transition/Resources/icons/icon-50@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-50@2x.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-50@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"550F2535-597D-46B5-A9C4-9C2B3C223D38-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-60.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60.png
+s418615101.992569
+e418615101.995971
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-60.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60.png209"[1mCpResource[0m CSS3Transition/Resources/icons/icon-60.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60.png[0m747afe3d8ff3b841^97fdfe3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@146"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60.png003424cfdfffdf42^975"[1mCpResource[0m CSS3Transition/Resources/icons/icon-60.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-60.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"B430F743-2B5A-485A-A92B-EC4DDFE873D9-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-60@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60@2x.png
+s418615101.976223
+e418615101.979178
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-60@2x.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60@2x.png215"[1mCpResource[0m CSS3Transition/Resources/icons/icon-60@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60@2x.png[0mdf4efa3d8ff3b841^a7eafa3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60@2x.png003424cfdfffdf42^984"[1mCpResource[0m CSS3Transition/Resources/icons/icon-60@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-60@2x.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-60@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"6F39222D-D104-4E52-8FA3-00345BC572CA-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-72.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72.png
+s418615101.964721
+e418615101.966291
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-72.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72.png209"[1mCpResource[0m CSS3Transition/Resources/icons/icon-72.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72.png[0mf41af73d8ff3b841^a209f83d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@146"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72.png003424cfdfffdf42^975"[1mCpResource[0m CSS3Transition/Resources/icons/icon-72.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-72.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"515182FC-FDF8-4AF0-9A9E-F001FB1F57C9-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-72@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72@2x.png
+s418615102.003677
+e418615102.004863
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-72@2x.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72@2x.png215"[1mCpResource[0m CSS3Transition/Resources/icons/icon-72@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72@2x.png[0m1809013e8ff3b841^ad4b013e8ff3b841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72@2x.png003424cfdfffdf42^984"[1mCpResource[0m CSS3Transition/Resources/icons/icon-72@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-72@2x.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-72@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"6FD6E9FD-AAE5-464C-9039-EA57AD1DA443-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-76.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76.png
+s418615101.963799
+e418615101.966005
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-76.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76.png209"[1mCpResource[0m CSS3Transition/Resources/icons/icon-76.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76.png[0m96eaf63d8ff3b841^8f50f73d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@146"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76.png003424cfdfffdf42^975"[1mCpResource[0m CSS3Transition/Resources/icons/icon-76.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-76.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"1E5C88A8-9799-48B3-8674-DFDEB9CDA238-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-76@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76@2x.png
+s418615101.998826
+e418615102.002036
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-76@2x.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76@2x.png215"[1mCpResource[0m CSS3Transition/Resources/icons/icon-76@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76@2x.png[0md652003e8ff3b841^cf86003e8ff3b841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76@2x.png003424cfdfffdf42^984"[1mCpResource[0m CSS3Transition/Resources/icons/icon-76@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-76@2x.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-76@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"2A98DD35-1FE2-49E7-87A5-86C6535947D7-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-small.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small.png
+s418615101.979332
+e418615101.982757
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-small.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small.png215"[1mCpResource[0m CSS3Transition/Resources/icons/icon-small.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small.png[0m6a13fb3d8ff3b841^2098fb3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small.png003424cfdfffdf42^984"[1mCpResource[0m CSS3Transition/Resources/icons/icon-small.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-small.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"A5D0AC76-0E45-4870-AA19-40306D72E0D5-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon-small@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small@2x.png
+s418615101.985145
+e418615101.986369
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon-small@2x.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small@2x.png221"[1mCpResource[0m CSS3Transition/Resources/icons/icon-small@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small@2x.png[0m8c48fc3d8ff3b841^938cfc3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@152"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small@2x.png003424cfdfffdf42^993"[1mCpResource[0m CSS3Transition/Resources/icons/icon-small@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon-small@2x.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon-small@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"6E9B6B1A-45C9-492F-83EE-8A057989DCB8-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon.png
+s418615101.967954
+e418615101.971680
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon.png203"[1mCpResource[0m CSS3Transition/Resources/icons/icon.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon.png[0m4b21f83d8ff3b841^1805f93d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon.png003424cfdfffdf42^966"[1mCpResource[0m CSS3Transition/Resources/icons/icon.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"6E4B87E4-3839-40D2-9D6D-410ED76A1B60-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/icons/icon@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon@2x.png
+s418615101.968605
+e418615101.973429
+r1
+xCpResource
+xCSS3Transition/Resources/icons/icon@2x.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon@2x.png209"[1mCpResource[0m CSS3Transition/Resources/icons/icon@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon@2x.png[0mcf4cf83d8ff3b841^f81bf93d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@146"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon@2x.png003424cfdfffdf42^975"[1mCpResource[0m CSS3Transition/Resources/icons/icon@2x.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/icon@2x.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/icons/icon@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"BCA558F9-14A4-4B36-8771-B09C27A5D36E-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/splash/Default-568h@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-568h@2x~iphone.png
+s418615101.995088
+e418615101.996342
+r1
+xCpResource
+xCSS3Transition/Resources/splash/Default-568h@2x~iphone.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-568h@2x~iphone.png240"[1mCpResource[0m CSS3Transition/Resources/splash/Default-568h@2x~iphone.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-568h@2x~iphone.png[0md5d0fe3d8ff3b841^c74bff3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@161"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-568h@2x~iphone.png003424cfdfffdf42^1022"[1mCpResource[0m CSS3Transition/Resources/splash/Default-568h@2x~iphone.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-568h@2x~iphone.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-568h@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"6E4BF159-B329-483A-BDBE-3373CA9896E2-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/splash/Default-Landscape@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape@2x~ipad.png
+s418615101.981967
+e418615101.983667
+r1
+xCpResource
+xCSS3Transition/Resources/splash/Default-Landscape@2x~ipad.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape@2x~ipad.png246"[1mCpResource[0m CSS3Transition/Resources/splash/Default-Landscape@2x~ipad.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape@2x~ipad.png[0m2079fb3d8ff3b841^c8d2fb3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@164"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape@2x~ipad.png003424cfdfffdf42^1031"[1mCpResource[0m CSS3Transition/Resources/splash/Default-Landscape@2x~ipad.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape@2x~ipad.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-Landscape@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"959032F7-2AD3-4BE2-95DA-2898F1FCAD41-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/splash/Default-Landscape~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape~ipad.png
+s418615101.983298
+e418615101.986958
+r1
+xCpResource
+xCSS3Transition/Resources/splash/Default-Landscape~ipad.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape~ipad.png240"[1mCpResource[0m CSS3Transition/Resources/splash/Default-Landscape~ipad.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape~ipad.png[0mc614fc3d8ff3b841^6360fd3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@161"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape~ipad.png003424cfdfffdf42^1022"[1mCpResource[0m CSS3Transition/Resources/splash/Default-Landscape~ipad.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Landscape~ipad.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-Landscape~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"EEABFC3D-2428-405C-829F-ADAAE8A1F5C7-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/splash/Default-Portrait@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait@2x~ipad.png
+s418615101.984659
+e418615101.988840
+r1
+xCpResource
+xCSS3Transition/Resources/splash/Default-Portrait@2x~ipad.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait@2x~ipad.png244"[1mCpResource[0m CSS3Transition/Resources/splash/Default-Portrait@2x~ipad.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait@2x~ipad.png[0mdfc0fc3d8ff3b841^be66fd3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@163"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait@2x~ipad.png003424cfdfffdf42^1028"[1mCpResource[0m CSS3Transition/Resources/splash/Default-Portrait@2x~ipad.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait@2x~ipad.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-Portrait@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"6030D4B2-3D9C-471F-997A-93A7DC877FD9-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/splash/Default-Portrait~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait~ipad.png
+s418615101.987798
+e418615101.990170
+r1
+xCpResource
+xCSS3Transition/Resources/splash/Default-Portrait~ipad.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait~ipad.png238"[1mCpResource[0m CSS3Transition/Resources/splash/Default-Portrait~ipad.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait~ipad.png[0mbef6fc3d8ff3b841^c269fd3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@160"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait~ipad.png003424cfdfffdf42^1019"[1mCpResource[0m CSS3Transition/Resources/splash/Default-Portrait~ipad.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default-Portrait~ipad.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default-Portrait~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"5BDE825B-284E-4F78-97E1-B50CC1D5E52C-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/splash/Default@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default@2x~iphone.png
+s418615101.989053
+e418615101.990522
+r1
+xCpResource
+xCSS3Transition/Resources/splash/Default@2x~iphone.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default@2x~iphone.png230"[1mCpResource[0m CSS3Transition/Resources/splash/Default@2x~iphone.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default@2x~iphone.png[0m3448fd3d8ff3b841^6496fd3d8ff3b841^---0#0#1#-19%DVTDocumentLocation2@156"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default@2x~iphone.png003424cfdfffdf42^1007"[1mCpResource[0m CSS3Transition/Resources/splash/Default@2x~iphone.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default@2x~iphone.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"B6942325-73F0-4C07-AD99-464AC94DBAAD-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CCpResource CSS3Transition/Resources/splash/Default~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default~iphone.png
+s418615101.994871
+e418615102.000461
+r1
+xCpResource
+xCSS3Transition/Resources/splash/Default~iphone.png
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Copy /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default~iphone.png224"[1mCpResource[0m CSS3Transition/Resources/splash/Default~iphone.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default~iphone.png[0m9e5cff3d8ff3b841^9e29003e8ff3b841^---0#0#1#-19%DVTDocumentLocation2@153"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default~iphone.png003424cfdfffdf42^998"[1mCpResource[0m CSS3Transition/Resources/splash/Default~iphone.png [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Default~iphone.png[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/Resources/splash/Default~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"00B590EB-7423-4495-92EA-8D43BB0F329C-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CGenerateDSYMFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition
+s418616156.012534
+e418616156.046427
+r1
+xGenerateDSYMFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Generate /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM308"[1mGenerateDSYMFile[0m [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition9144035c93f3b841^2dee0b5c93f3b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM/0000000000000000^1076"[1mGenerateDSYMFile[0m [1m/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app.dSYM36"C07CC587-FD5B-4628-AF77-3E9D1B3657F9-
+b41076EB6-E04A-4967-9D6E-AC9F659971D7
+
+CLd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition normal i386
+s418615103.492373
+e418615103.542754
+r1
+xLd
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition
+xnormal
+xi386
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/CSS3Transition.LinkFileList
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/main.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/AppDelegate.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Link /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition165"[1mLd[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition normal i386711e7e3f8ff3b841^49f48a3f8ff3b841^---0#0#1#--2291"[1mLd[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition normal i386    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -filelist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/CSS3Transition.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Objects-normal/i386/CSS3Transition_dependency_info.dat -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/CSS3Transition36"B7EAC455-7549-46F0-B0A3-CD1562C2A76D-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CPhaseScriptExecution Copy\ www\ directory /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Script-304B58A110DAC018002A0835.sh
+s418616155.948075
+e418616156.007276
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.042s
+ouser	0m0.015s
+osys	0m0.026s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'154"[1mPhaseScriptExecution[0m Copy\ www\ directory build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Script-304B58A110DAC018002A0835.shf60af35b93f3b841^4cdd015c93f3b841^-42"real	0m0.042suser	0m0.015ssys	0m0.026s3(21%IDEActivityLogMessage2@14"real	0m0.042s-418616156#1#14#-0#-----2@14"user	0m0.015s-418616156#15#14#-0#-----2@13"sys	0m0.026s-418616156#29#13#-0#-----0#0#1#--470"[1mPhaseScriptExecution[0m Copy\ www\ directory build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Script-304B58A110DAC018002A0835.sh    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    /bin/sh -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/Script-304B58A110DAC018002A0835.sh36"F4BB12AE-C909-4AB4-9CAA-979635B2A8BE-
+b41076EB6-E04A-4967-9D6E-AC9F659971D7
+
+CProcessInfoPlistFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Info.plist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Info.plist
+s418616155.945286
+e418616155.947097
+r1
+xProcessInfoPlistFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Info.plist
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Process /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Info.plist216"[1mProcessInfoPlistFile[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Info.plist [1mCSS3Transition/CSS3Transition-Info.plist[0med11f25b93f3b841^3675f25b93f3b841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Info.plist0000000000000000^1121"[1mProcessInfoPlistFile[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Info.plist [1mCSS3Transition/CSS3Transition-Info.plist[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Info.plist -genpkginfo /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app/Info.plist36"BA293149-4C33-493D-A95F-8FAEE1B08750-
+b41076EB6-E04A-4967-9D6E-AC9F659971D7
+
+CProcessPCH /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.pch CSS3Transition/CSS3Transition-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418615103.143193
+e418615103.421862
+r1
+xProcessPCH
+x/var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.pch
+xCSS3Transition/CSS3Transition-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile CSS3Transition/CSS3Transition-Prefix.pch324"[1mProcessPCH[0m /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.pch CSS3Transition/CSS3Transition-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera4c6243f8ff3b841^3f016c3f8ff3b841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Prefix.pch0000000000000000^4565"[1mProcessPCH[0m /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.pch CSS3Transition/CSS3Transition-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=109 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/CSS3Transition-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/build/CSS3Transition.build/Debug-iphonesimulator/CSS3Transition.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator --serialize-diagnostics /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.d -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios/CSS3Transition/CSS3Transition-Prefix.pch -o /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CSS3Transition-Prefix-gyuybvqpguxopeeawbzifacfwbuo/CSS3Transition-Prefix.pch.pch36"909383CA-7392-4CED-B286-C8E4DD386950-
+bEABFAB2A-656C-4C7D-A68E-010CC7FC7D70
+
+CTouch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app
+s418616156.047572
+e418616156.052448
+r1
+xTouch
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Touch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app141"[1mTouch[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.appb43b0c5c93f3b841^b16d0d5c93f3b841^---0#0#1#--680"[1mTouch[0m /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/CSS3Transition/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/css3transition/platforms/ios/build/emulator/CSS3Transition.app36"0422AC96-994B-450C-8416-4B52D8C3A689-
+b41076EB6-E04A-4967-9D6E-AC9F659971D7
+

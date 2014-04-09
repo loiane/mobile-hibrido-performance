@@ -1,0 +1,893 @@
+TContactsTouchBuild
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Info.plist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Script-304B58A110DAC018002A0835.sh
+cCpResource ContactsTouchBuild/Resources/icons/icon-76.png build/emulator/ContactsTouchBuild.app/icon-76.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-40@2x.png build/emulator/ContactsTouchBuild.app/icon-40@2x.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-72.png build/emulator/ContactsTouchBuild.app/icon-72.png
+cCpResource ContactsTouchBuild/Resources/icons/icon.png build/emulator/ContactsTouchBuild.app/icon.png
+cCpResource ContactsTouchBuild/Resources/icons/icon@2x.png build/emulator/ContactsTouchBuild.app/icon@2x.png
+cCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/en.lproj/Localizable.strings ContactsTouchBuild/Resources/en.lproj/Localizable.strings
+cCompileXIB /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.xib
+cCpResource ContactsTouchBuild/Resources/icons/icon-50.png build/emulator/ContactsTouchBuild.app/icon-50.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-60@2x.png build/emulator/ContactsTouchBuild.app/icon-60@2x.png
+cCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/de.lproj/Localizable.strings ContactsTouchBuild/Resources/de.lproj/Localizable.strings
+cCpResource ContactsTouchBuild/Resources/icons/icon-small.png build/emulator/ContactsTouchBuild.app/icon-small.png
+cCpResource ContactsTouchBuild/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/ContactsTouchBuild.app/Default-Landscape@2x~ipad.png
+cCpResource ContactsTouchBuild/Resources/splash/Default-Landscape~ipad.png build/emulator/ContactsTouchBuild.app/Default-Landscape~ipad.png
+cCpResource ContactsTouchBuild/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/ContactsTouchBuild.app/Default-Portrait@2x~ipad.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-small@2x.png build/emulator/ContactsTouchBuild.app/icon-small@2x.png
+cCpResource ContactsTouchBuild/Resources/splash/Default-Portrait~ipad.png build/emulator/ContactsTouchBuild.app/Default-Portrait~ipad.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-40.png build/emulator/ContactsTouchBuild.app/icon-40.png
+cCpResource ContactsTouchBuild/Resources/splash/Default@2x~iphone.png build/emulator/ContactsTouchBuild.app/Default@2x~iphone.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-60.png build/emulator/ContactsTouchBuild.app/icon-60.png
+cCpResource ContactsTouchBuild/Resources/splash/Default~iphone.png build/emulator/ContactsTouchBuild.app/Default~iphone.png
+cCpResource ContactsTouchBuild/Resources/splash/Default-568h@2x~iphone.png build/emulator/ContactsTouchBuild.app/Default-568h@2x~iphone.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-50@2x.png build/emulator/ContactsTouchBuild.app/icon-50@2x.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-76@2x.png build/emulator/ContactsTouchBuild.app/icon-76@2x.png
+cCpResource ContactsTouchBuild/Resources/icons/icon-72@2x.png build/emulator/ContactsTouchBuild.app/icon-72@2x.png
+cProcessPCH /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.pch ContactsTouchBuild/ContactsTouchBuild-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild normal i386
+cGenerateDSYMFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app.dSYM /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild
+cTouch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.m
+c0000000053455B8C00000000000013BB
+t1397054348
+s5051
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.m
+c0000000053455B8C0000000000001273
+t1397054348
+s4723
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.xib
+c0000000053455B8C0000000000001759
+t1397054348
+s5977
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Info.plist
+c0000000053455B960000000000000A0D
+t1397054358
+s2573
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Prefix.pch
+c0000000053455B8C00000000000003D5
+t1397054348
+s981
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m
+c0000000053455B8C00000000000137C5
+t1397054348
+s79813
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m
+c0000000053455B8C0000000000006A52
+t1397054348
+s27218
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/de.lproj/Localizable.strings
+c0000000053455B8C00000000000004C0
+t1397054348
+s1216
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/en.lproj/Localizable.strings
+c0000000053455B8C00000000000004AB
+t1397054348
+s1195
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-40.png
+c0000000053455B8C0000000000000FF2
+t1397054348
+s4082
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-40@2x.png
+c0000000053455B8C0000000000001CF3
+t1397054348
+s7411
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-50.png
+c0000000053455B8C000000000000130A
+t1397054348
+s4874
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-50@2x.png
+c0000000053455B8C000000000000258B
+t1397054348
+s9611
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-60.png
+c0000000053455B8C00000000000016B3
+t1397054348
+s5811
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-60@2x.png
+c0000000053455B8C0000000000002E94
+t1397054348
+s11924
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-72.png
+c0000000053455B8C0000000000001350
+t1397054348
+s4944
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-72@2x.png
+c0000000053455B8C0000000000002DBA
+t1397054348
+s11706
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-76.png
+c0000000053455B8C0000000000001B71
+t1397054348
+s7025
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-76@2x.png
+c0000000053455B8C0000000000003B9E
+t1397054348
+s15262
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-small.png
+c0000000053455B8C0000000000000CDE
+t1397054348
+s3294
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-small@2x.png
+c0000000053455B8C00000000000015E8
+t1397054348
+s5608
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon.png
+c0000000053455B8C0000000000000F3E
+t1397054348
+s3902
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon@2x.png
+c0000000053455B8C0000000000001EBD
+t1397054348
+s7869
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-568h@2x~iphone.png
+c0000000053455B8C00000000000085B1
+t1397054348
+s34225
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053455B8C0000000000033D0A
+t1397054348
+s212234
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-Landscape~ipad.png
+c0000000053455B8C00000000000166A2
+t1397054348
+s91810
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000053455B8C0000000000033F7C
+t1397054348
+s212860
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-Portrait~ipad.png
+c0000000053455B8C0000000000016641
+t1397054348
+s91713
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default@2x~iphone.png
+c0000000053455B8C0000000000007323
+t1397054348
+s29475
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default~iphone.png
+c0000000053455B8C000000000000289A
+t1397054348
+s10394
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/main.m
+c0000000053455B8C0000000000000464
+t1397054348
+s1124
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.o
+t1397054367
+s74172
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.o
+t1397054367
+s141868
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.o
+t1397054367
+s122948
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/ContactsTouchBuild.LinkFileList
+c0000000053455B9D0000000000000419
+t1397054365
+s1049
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.o
+t1397054367
+s50980
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.o
+t1397054366
+s3124
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Script-304B58A110DAC018002A0835.sh
+c0000000053455B9D000000000000002D
+t1397054365
+s45
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app
+t1397054367
+s1020
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app.dSYM
+t2
+s0
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild
+t1397054367
+s411100
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-568h@2x~iphone.png
+t1397054365
+s34225
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-Landscape@2x~ipad.png
+t1397054365
+s212234
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-Landscape~ipad.png
+t1397054365
+s91810
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-Portrait@2x~ipad.png
+t1397054365
+s212860
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-Portrait~ipad.png
+t1397054365
+s91713
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default@2x~iphone.png
+t1397054365
+s29475
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default~iphone.png
+t1397054365
+s10394
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Info.plist
+t1397054365
+s1301
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/MainViewController.nib
+t1397054366
+s1332
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/PkgInfo
+t2
+s0
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/de.lproj/Localizable.strings
+t1397054365
+s280
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/en.lproj/Localizable.strings
+t1397054365
+s166
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-40.png
+t1397054365
+s4082
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-40@2x.png
+t1397054365
+s7411
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-50.png
+t1397054365
+s4874
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-50@2x.png
+t1397054365
+s9611
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-60.png
+t1397054365
+s5811
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-60@2x.png
+t1397054365
+s11924
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-72.png
+t1397054365
+s4944
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-72@2x.png
+t1397054365
+s11706
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-76.png
+t1397054365
+s7025
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-76@2x.png
+t1397054365
+s15262
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-small.png
+t1397054365
+s3294
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-small@2x.png
+t1397054365
+s5608
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon.png
+t1397054365
+s3902
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon@2x.png
+t1397054365
+s7869
+
+N/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/libCordova.a
+c0000000053455B9D00000000000D35D8
+t1397054365
+s865752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000532B83DF00000000000003B4
+t1395360735
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532B83E5000000000000019E
+t1395360741
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000532B83E6000000000019D2D0
+t1395360742
+s1692368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000532B83E70000000000505040
+t1395360743
+s5263424
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000532B83E60000000000059340
+t1395360742
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000532B83E80000000000446820
+t1395360744
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000532B83E700000000000F1A80
+t1395360743
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000532B83EA00000000001BE790
+t1395360746
+s1828752
+
+N/var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.pch
+t1397054366
+s5375348
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesabcd731d93f5b841^111a751d93f5b841^---0#1#1#--18"Check dependencies36"768398EB-B947-46D6-9182-2C58B596E403-
+
+CCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418747166.965699
+e418747167.053279
+r1
+xCompileC
+xbuild/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.m245"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.o [1mContactsTouchBuild/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4759f71e93f5b841^f4a30d1f93f5b841^---0#0#1#-19%DVTDocumentLocation2@145"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.m0000000000000000^4847"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.o [1mContactsTouchBuild/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/AppDelegate.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.o36"61D1F908-F625-400F-B11F-7A6911C4433F-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418747166.991550
+e418747167.144951
+r1
+xCompileC
+xbuild/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection173"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m271"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.o [1mContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler66fafd1e93f5b841^c51b251f93f5b841^---0#0#1#-19%DVTDocumentLocation2@172"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m0000000000000000^4897"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.o [1mContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.o36"7E95920F-F843-47DA-B305-A4C2044AA843-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418747166.966821
+e418747167.115367
+r1
+xCompileC
+xbuild/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContact.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m273"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.o [1mContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc6a4f71e93f5b841^16891d1f93f5b841^---0#0#1#-19%DVTDocumentLocation2@173"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m0000000000000000^4903"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.o [1mContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Plugins/org.apache.cordova.contacts/CDVContacts.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.o36"7EBEEFCB-C8CD-4E47-971D-C7BE88FE6638-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418747166.966199
+e418747167.041820
+r1
+xCompileC
+xbuild/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.m
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.m259"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.o [1mContactsTouchBuild/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler86c6f71e93f5b841^9fcd0a1f93f5b841^---0#0#1#-19%DVTDocumentLocation2@152"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.m0000000000000000^4889"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.o [1mContactsTouchBuild/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.o36"4A898E52-0805-4222-8DD7-EFC5E5D2AB13-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCompileC build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418747166.965312
+e418747166.990230
+r1
+xCompileC
+xbuild/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.o
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/main.m223"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.o [1mContactsTouchBuild/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf241f71e93f5b841^c380fd1e93f5b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/main.m0000000000000000^4789"[1mCompileC[0m build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.o [1mContactsTouchBuild/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -include /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch -MMD -MT dependencies -MF /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.d --serialize-diagnostics /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.dia -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/main.m -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.o36"E9A64A4B-FDDA-4904-B2CB-6A87ACBD049B-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCompileXIB /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.xib
+s418747165.573513
+e418747166.689732
+r1
+xCompileXIB
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.xib
+o2014-04-09 11:39:26.220 Interface Builder Cocoa Touch Tool[20202:303] CFPreferences: user home directory at file:///Users/loiane/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Compiling /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.xib76"[1mCompileXIB[0m [1mContactsTouchBuild/Classes/MainViewController.xib[0madf8921d93f5b841^a394b01e93f5b841^-231"2014-04-09 11:39:26.220 Interface Builder Cocoa Touch Tool[20202:303] CFPreferences: user home directory at file:///Users/loiane/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.xib0000000000000000^1081"[1mCompileXIB[0m [1mContactsTouchBuild/Classes/MainViewController.xib[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/MainViewController.nib /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Classes/MainViewController.xib36"D59E5CF7-67EE-4286-B5E3-5C8BE69A9DA7-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/de.lproj/Localizable.strings ContactsTouchBuild/Resources/de.lproj/Localizable.strings
+s418747165.575883
+e418747165.577515
+r1
+xCopyStringsFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/de.lproj/Localizable.strings
+xContactsTouchBuild/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy ContactsTouchBuild/Resources/de.lproj/Localizable.strings148"[1mCopyStringsFile[0m build/emulator/ContactsTouchBuild.app/de.lproj/Localizable.strings ContactsTouchBuild/Resources/de.lproj/Localizable.strings9f8e931d93f5b841^bad9931d93f5b841^---0#0#1#-19%DVTDocumentLocation2@162"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/de.lproj/Localizable.strings0000000000000000^837"[1mCopyStringsFile[0m build/emulator/ContactsTouchBuild.app/de.lproj/Localizable.strings ContactsTouchBuild/Resources/de.lproj/Localizable.strings    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/de.lproj -- ContactsTouchBuild/Resources/de.lproj/Localizable.strings36"F27C6624-001E-44E2-8A5D-CAFAEEEEC72A-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCopyStringsFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/en.lproj/Localizable.strings ContactsTouchBuild/Resources/en.lproj/Localizable.strings
+s418747165.573209
+e418747165.576042
+r1
+xCopyStringsFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/en.lproj/Localizable.strings
+xContactsTouchBuild/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy ContactsTouchBuild/Resources/en.lproj/Localizable.strings148"[1mCopyStringsFile[0m build/emulator/ContactsTouchBuild.app/en.lproj/Localizable.strings ContactsTouchBuild/Resources/en.lproj/Localizable.stringsf9d7921d93f5b841^8b36931d93f5b841^---0#0#1#-19%DVTDocumentLocation2@162"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/en.lproj/Localizable.strings0000000000000000^837"[1mCopyStringsFile[0m build/emulator/ContactsTouchBuild.app/en.lproj/Localizable.strings ContactsTouchBuild/Resources/en.lproj/Localizable.strings    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/en.lproj -- ContactsTouchBuild/Resources/en.lproj/Localizable.strings36"D171A2AB-9642-4F87-95F7-B8346D4C9D12-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-40.png build/emulator/ContactsTouchBuild.app/icon-40.png
+s418747165.579901
+e418747165.581964
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-40.png
+xbuild/emulator/ContactsTouchBuild.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/ContactsTouchBuild.app/icon-40.png115"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-40.png build/emulator/ContactsTouchBuild.app/icon-40.png6d91941d93f5b841^ddeb941d93f5b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-40.png003424cfdfffdf42^901"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-40.png build/emulator/ContactsTouchBuild.app/icon-40.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-40.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"3A3FF7D7-7860-4937-968E-B516CBA63011-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-40@2x.png build/emulator/ContactsTouchBuild.app/icon-40@2x.png
+s418747165.570843
+e418747165.572784
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-40@2x.png
+xbuild/emulator/ContactsTouchBuild.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/ContactsTouchBuild.app/icon-40@2x.png121"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-40@2x.png build/emulator/ContactsTouchBuild.app/icon-40@2x.png2e3d921d93f5b841^809a921d93f5b841^---0#0#1#-19%DVTDocumentLocation2@157"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-40@2x.png003424cfdfffdf42^910"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-40@2x.png build/emulator/ContactsTouchBuild.app/icon-40@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-40@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"819D5286-E86A-40E6-B52E-47C9F000FA74-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-50.png build/emulator/ContactsTouchBuild.app/icon-50.png
+s418747165.573972
+e418747165.575435
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-50.png
+xbuild/emulator/ContactsTouchBuild.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/ContactsTouchBuild.app/icon-50.png115"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-50.png build/emulator/ContactsTouchBuild.app/icon-50.png4a07931d93f5b841^c553931d93f5b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-50.png003424cfdfffdf42^901"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-50.png build/emulator/ContactsTouchBuild.app/icon-50.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-50.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"32D9CF2E-D697-4C7D-B621-5E5EF0C661A3-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-50@2x.png build/emulator/ContactsTouchBuild.app/icon-50@2x.png
+s418747165.583566
+e418747165.584930
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-50@2x.png
+xbuild/emulator/ContactsTouchBuild.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/ContactsTouchBuild.app/icon-50@2x.png121"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-50@2x.png build/emulator/ContactsTouchBuild.app/icon-50@2x.png7383951d93f5b841^e4ba951d93f5b841^---0#0#1#-19%DVTDocumentLocation2@157"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-50@2x.png003424cfdfffdf42^910"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-50@2x.png build/emulator/ContactsTouchBuild.app/icon-50@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-50@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"DA916737-820C-4911-AD5C-1B2A46B7999C-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-60.png build/emulator/ContactsTouchBuild.app/icon-60.png
+s418747165.581318
+e418747165.582964
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-60.png
+xbuild/emulator/ContactsTouchBuild.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/ContactsTouchBuild.app/icon-60.png115"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-60.png build/emulator/ContactsTouchBuild.app/icon-60.pngfaf0941d93f5b841^4f3e951d93f5b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-60.png003424cfdfffdf42^901"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-60.png build/emulator/ContactsTouchBuild.app/icon-60.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-60.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"2F570DA5-0C1A-4B5F-B8A7-C48F345C4B76-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-60@2x.png build/emulator/ContactsTouchBuild.app/icon-60@2x.png
+s418747165.574528
+e418747165.575636
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-60@2x.png
+xbuild/emulator/ContactsTouchBuild.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/ContactsTouchBuild.app/icon-60@2x.png121"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-60@2x.png build/emulator/ContactsTouchBuild.app/icon-60@2x.pngc329931d93f5b841^6669931d93f5b841^---0#0#1#-19%DVTDocumentLocation2@157"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-60@2x.png003424cfdfffdf42^910"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-60@2x.png build/emulator/ContactsTouchBuild.app/icon-60@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-60@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"79C2C4D4-CAB9-438B-A28C-83D0C896413F-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-72.png build/emulator/ContactsTouchBuild.app/icon-72.png
+s418747165.571023
+e418747165.572709
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-72.png
+xbuild/emulator/ContactsTouchBuild.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/ContactsTouchBuild.app/icon-72.png115"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-72.png build/emulator/ContactsTouchBuild.app/icon-72.png9145921d93f5b841^fca8921d93f5b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-72.png003424cfdfffdf42^901"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-72.png build/emulator/ContactsTouchBuild.app/icon-72.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-72.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"2A37110A-2A69-4BFD-AE39-217C254D1D4D-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-72@2x.png build/emulator/ContactsTouchBuild.app/icon-72@2x.png
+s418747165.584660
+e418747165.585628
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-72@2x.png
+xbuild/emulator/ContactsTouchBuild.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/ContactsTouchBuild.app/icon-72@2x.png121"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-72@2x.png build/emulator/ContactsTouchBuild.app/icon-72@2x.png1ec1951d93f5b841^81ec951d93f5b841^---0#0#1#-19%DVTDocumentLocation2@157"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-72@2x.png003424cfdfffdf42^910"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-72@2x.png build/emulator/ContactsTouchBuild.app/icon-72@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-72@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"807CCFAE-AA23-4BAE-BACE-879BF7F8B507-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-76.png build/emulator/ContactsTouchBuild.app/icon-76.png
+s418747165.570680
+e418747165.572053
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-76.png
+xbuild/emulator/ContactsTouchBuild.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/ContactsTouchBuild.app/icon-76.png115"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-76.png build/emulator/ContactsTouchBuild.app/icon-76.pnga629921d93f5b841^5779921d93f5b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-76.png003424cfdfffdf42^901"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-76.png build/emulator/ContactsTouchBuild.app/icon-76.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-76.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"59985C55-827A-4297-9210-03C6991CA209-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-76@2x.png build/emulator/ContactsTouchBuild.app/icon-76@2x.png
+s418747165.584259
+e418747165.585356
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-76@2x.png
+xbuild/emulator/ContactsTouchBuild.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/ContactsTouchBuild.app/icon-76@2x.png121"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-76@2x.png build/emulator/ContactsTouchBuild.app/icon-76@2x.pngfbad951d93f5b841^6ada951d93f5b841^---0#0#1#-19%DVTDocumentLocation2@157"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-76@2x.png003424cfdfffdf42^910"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-76@2x.png build/emulator/ContactsTouchBuild.app/icon-76@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-76@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"40E900DB-5EA2-4A95-AE4D-EC4190672F3E-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-small.png build/emulator/ContactsTouchBuild.app/icon-small.png
+s418747165.576381
+e418747165.577606
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-small.png
+xbuild/emulator/ContactsTouchBuild.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/ContactsTouchBuild.app/icon-small.png121"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-small.png build/emulator/ContactsTouchBuild.app/icon-small.png7fa1931d93f5b841^b4e6931d93f5b841^---0#0#1#-19%DVTDocumentLocation2@157"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-small.png003424cfdfffdf42^910"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-small.png build/emulator/ContactsTouchBuild.app/icon-small.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-small.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"7F4DE260-86B0-427C-AD3A-5CCE568056DA-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon-small@2x.png build/emulator/ContactsTouchBuild.app/icon-small@2x.png
+s418747165.578787
+e418747165.579922
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon-small@2x.png
+xbuild/emulator/ContactsTouchBuild.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/ContactsTouchBuild.app/icon-small@2x.png127"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-small@2x.png build/emulator/ContactsTouchBuild.app/icon-small@2x.png9945941d93f5b841^f376941d93f5b841^---0#0#1#-19%DVTDocumentLocation2@160"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon-small@2x.png003424cfdfffdf42^919"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon-small@2x.png build/emulator/ContactsTouchBuild.app/icon-small@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon-small@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"1A7C1C4D-A94D-498F-81B0-9772B951DFB4-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon.png build/emulator/ContactsTouchBuild.app/icon.png
+s418747165.571559
+e418747165.572800
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon.png
+xbuild/emulator/ContactsTouchBuild.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/ContactsTouchBuild.app/icon.png109"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon.png build/emulator/ContactsTouchBuild.app/icon.png5e64921d93f5b841^9dbe921d93f5b841^---0#0#1#-19%DVTDocumentLocation2@151"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon.png003424cfdfffdf42^892"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon.png build/emulator/ContactsTouchBuild.app/icon.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"1F9F4E0E-A6B8-4CE6-AFFB-BBF26D7FF183-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/icons/icon@2x.png build/emulator/ContactsTouchBuild.app/icon@2x.png
+s418747165.572350
+e418747165.573582
+r1
+xCpResource
+xContactsTouchBuild/Resources/icons/icon@2x.png
+xbuild/emulator/ContactsTouchBuild.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/ContactsTouchBuild.app/icon@2x.png115"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon@2x.png build/emulator/ContactsTouchBuild.app/icon@2x.png4e9a921d93f5b841^84d7921d93f5b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/icon@2x.png003424cfdfffdf42^901"[1mCpResource[0m ContactsTouchBuild/Resources/icons/icon@2x.png build/emulator/ContactsTouchBuild.app/icon@2x.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/icons/icon@2x.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"41E341D9-E89C-4863-9641-79C7F10E9F3A-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/splash/Default-568h@2x~iphone.png build/emulator/ContactsTouchBuild.app/Default-568h@2x~iphone.png
+s418747165.583080
+e418747165.584415
+r1
+xCpResource
+xContactsTouchBuild/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/ContactsTouchBuild.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/emulator/ContactsTouchBuild.app/Default-568h@2x~iphone.png146"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-568h@2x~iphone.png build/emulator/ContactsTouchBuild.app/Default-568h@2x~iphone.pngb85c951d93f5b841^5f9b951d93f5b841^---0#0#1#-19%DVTDocumentLocation2@169"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-568h@2x~iphone.png003424cfdfffdf42^948"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-568h@2x~iphone.png build/emulator/ContactsTouchBuild.app/Default-568h@2x~iphone.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-568h@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"9E96F6C1-A2A8-43D1-B38B-D847B0E0EF72-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/ContactsTouchBuild.app/Default-Landscape@2x~ipad.png
+s418747165.576604
+e418747165.577992
+r1
+xCpResource
+xContactsTouchBuild/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/ContactsTouchBuild.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/emulator/ContactsTouchBuild.app/Default-Landscape@2x~ipad.png152"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/ContactsTouchBuild.app/Default-Landscape@2x~ipad.png18b1931d93f5b841^1efd931d93f5b841^---0#0#1#-19%DVTDocumentLocation2@172"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-Landscape@2x~ipad.png003424cfdfffdf42^957"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/ContactsTouchBuild.app/Default-Landscape@2x~ipad.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-Landscape@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"456C7DE8-564B-4252-9EE7-8A5A12908D22-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/splash/Default-Landscape~ipad.png build/emulator/ContactsTouchBuild.app/Default-Landscape~ipad.png
+s418747165.577727
+e418747165.578879
+r1
+xCpResource
+xContactsTouchBuild/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/ContactsTouchBuild.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/emulator/ContactsTouchBuild.app/Default-Landscape~ipad.png146"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-Landscape~ipad.png build/emulator/ContactsTouchBuild.app/Default-Landscape~ipad.png33fc931d93f5b841^a932941d93f5b841^---0#0#1#-19%DVTDocumentLocation2@169"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-Landscape~ipad.png003424cfdfffdf42^948"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-Landscape~ipad.png build/emulator/ContactsTouchBuild.app/Default-Landscape~ipad.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-Landscape~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"755DEFE0-8D8F-4B04-82F8-92479BB7F24A-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/ContactsTouchBuild.app/Default-Portrait@2x~ipad.png
+s418747165.578143
+e418747165.579733
+r1
+xCpResource
+xContactsTouchBuild/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/ContactsTouchBuild.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/emulator/ContactsTouchBuild.app/Default-Portrait@2x~ipad.png150"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/ContactsTouchBuild.app/Default-Portrait@2x~ipad.png3e24941d93f5b841^8d63941d93f5b841^---0#0#1#-19%DVTDocumentLocation2@171"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-Portrait@2x~ipad.png003424cfdfffdf42^954"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/ContactsTouchBuild.app/Default-Portrait@2x~ipad.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-Portrait@2x~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"B6C229C1-2AE9-4466-902B-D2857F94F79C-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/splash/Default-Portrait~ipad.png build/emulator/ContactsTouchBuild.app/Default-Portrait~ipad.png
+s418747165.579410
+e418747165.581144
+r1
+xCpResource
+xContactsTouchBuild/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/ContactsTouchBuild.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/emulator/ContactsTouchBuild.app/Default-Portrait~ipad.png144"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-Portrait~ipad.png build/emulator/ContactsTouchBuild.app/Default-Portrait~ipad.png7c7e941d93f5b841^7fda941d93f5b841^---0#0#1#-19%DVTDocumentLocation2@168"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default-Portrait~ipad.png003424cfdfffdf42^945"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default-Portrait~ipad.png build/emulator/ContactsTouchBuild.app/Default-Portrait~ipad.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default-Portrait~ipad.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"DD21C604-2A03-4BE2-9CC3-58BBF378840B-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/splash/Default@2x~iphone.png build/emulator/ContactsTouchBuild.app/Default@2x~iphone.png
+s418747165.580753
+e418747165.582777
+r1
+xCpResource
+xContactsTouchBuild/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/ContactsTouchBuild.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/emulator/ContactsTouchBuild.app/Default@2x~iphone.png136"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default@2x~iphone.png build/emulator/ContactsTouchBuild.app/Default@2x~iphone.png2fc2941d93f5b841^f12c951d93f5b841^---0#0#1#-19%DVTDocumentLocation2@164"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default@2x~iphone.png003424cfdfffdf42^933"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default@2x~iphone.png build/emulator/ContactsTouchBuild.app/Default@2x~iphone.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default@2x~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"768FDEDE-96F5-46F6-88C6-0EA1284DD8B2-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CCpResource ContactsTouchBuild/Resources/splash/Default~iphone.png build/emulator/ContactsTouchBuild.app/Default~iphone.png
+s418747165.582510
+e418747165.583889
+r1
+xCpResource
+xContactsTouchBuild/Resources/splash/Default~iphone.png
+xbuild/emulator/ContactsTouchBuild.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/ContactsTouchBuild.app/Default~iphone.png130"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default~iphone.png build/emulator/ContactsTouchBuild.app/Default~iphone.png7a38951d93f5b841^897a951d93f5b841^---0#0#1#-19%DVTDocumentLocation2@161"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Default~iphone.png003424cfdfffdf42^924"[1mCpResource[0m ContactsTouchBuild/Resources/splash/Default~iphone.png build/emulator/ContactsTouchBuild.app/Default~iphone.png    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/Resources/splash/Default~iphone.png /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"A3C108A0-E247-4A8A-BCDD-38175F437DB9-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CGenerateDSYMFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app.dSYM /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild
+s418747167.201905
+e418747167.237875
+r1
+xGenerateDSYMFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app.dSYM
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Generate /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app.dSYM132"[1mGenerateDSYMFile[0m [1mbuild/emulator/ContactsTouchBuild.app.dSYM[0m build/emulator/ContactsTouchBuild.app/ContactsTouchBuildbabe331f93f5b841^1bf53c1f93f5b841^---0#0#1#-19%DVTDocumentLocation2@147"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app.dSYM003424cfdfffdf42^924"[1mGenerateDSYMFile[0m [1mbuild/emulator/ContactsTouchBuild.app.dSYM[0m build/emulator/ContactsTouchBuild.app/ContactsTouchBuild    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app.dSYM36"CDE2A48B-4ECF-4389-B0A1-E40702832BA0-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CLd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild normal i386
+s418747167.145914
+e418747167.200738
+r1
+xLd
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild
+xnormal
+xi386
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/ContactsTouchBuild.LinkFileList
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/main.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/AppDelegate.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/MainViewController.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContacts.o
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/CDVContact.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Link /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild79"[1mLd[0m build/emulator/ContactsTouchBuild.app/ContactsTouchBuild normal i386bd72251f93f5b841^e064331f93f5b841^---0#0#1#--2327"[1mLd[0m build/emulator/ContactsTouchBuild.app/ContactsTouchBuild normal i386    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -filelist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/ContactsTouchBuild.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -weak_framework AddressBook -weak_framework AddressBookUI -Xlinker -dependency_info -Xlinker /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Objects-normal/i386/ContactsTouchBuild_dependency_info.dat -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/ContactsTouchBuild36"1F16098F-1171-4609-816D-2CEBF965FE9D-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CPhaseScriptExecution Copy\ www\ directory /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Script-304B58A110DAC018002A0835.sh
+s418747165.461466
+e418747165.570194
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.090s
+ouser	0m0.035s
+osys	0m0.053s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'162"[1mPhaseScriptExecution[0m Copy\ www\ directory build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Script-304B58A110DAC018002A0835.sh1893761d93f5b841^2102921d93f5b841^-42"real	0m0.090suser	0m0.035ssys	0m0.053s3(21%IDEActivityLogMessage2@14"real	0m0.090s-418747165#1#14#-0#-----2@14"user	0m0.035s-418747165#15#14#-0#-----2@13"sys	0m0.053s-418747165#29#13#-0#-----0#0#1#--494"[1mPhaseScriptExecution[0m Copy\ www\ directory build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Script-304B58A110DAC018002A0835.sh    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    /bin/sh -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/Script-304B58A110DAC018002A0835.sh36"8F5DA853-9665-419E-A1B4-BF205F34EC10-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CProcessInfoPlistFile /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Info.plist /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Info.plist
+s418747165.456993
+e418747165.460129
+r1
+xProcessInfoPlistFile
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Info.plist
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Process /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Info.plist134"[1mProcessInfoPlistFile[0m build/emulator/ContactsTouchBuild.app/Info.plist [1mContactsTouchBuild/ContactsTouchBuild-Info.plist[0m4e27751d93f5b841^a1f8751d93f5b841^---0#0#1#-19%DVTDocumentLocation2@153"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Info.plist0000000000000000^1071"[1mProcessInfoPlistFile[0m build/emulator/ContactsTouchBuild.app/Info.plist [1mContactsTouchBuild/ContactsTouchBuild-Info.plist[0m    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Info.plist -genpkginfo /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app/Info.plist36"7289BAF1-38F9-4AAA-8CE3-AD15A720A46C-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CProcessPCH /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.pch ContactsTouchBuild/ContactsTouchBuild-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418747166.690546
+e418747166.964633
+r1
+xProcessPCH
+x/var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.pch
+xContactsTouchBuild/ContactsTouchBuild-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile ContactsTouchBuild/ContactsTouchBuild-Prefix.pch340"[1mProcessPCH[0m /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.pch ContactsTouchBuild/ContactsTouchBuild-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8ee6b01e93f5b841^7bf4f61e93f5b841^---0#0#1#-19%DVTDocumentLocation2@153"file:///Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Prefix.pch0000000000000000^4728"[1mProcessPCH[0m /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.pch ContactsTouchBuild/ContactsTouchBuild-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-generated-files.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-own-target-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-all-target-headers.hmap -iquote /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/ContactsTouchBuild-project-headers.hmap -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/usr/local/lib/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/UninstalledProducts/include -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources/i386 -I/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/ContactsTouchBuild.build/Debug-iphonesimulator/ContactsTouchBuild.build/DerivedSources -F/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator --serialize-diagnostics /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.d -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/ContactsTouchBuild/ContactsTouchBuild-Prefix.pch -o /var/folders/qw/45ymmlmn3sj46kkj1gnlxt5h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/ContactsTouchBuild-Prefix-gmkxcdbartxmbrcgtjzrxgtoojvl/ContactsTouchBuild-Prefix.pch.pch36"B7E3A344-8B58-42C6-AB3E-19C73532FA4F-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
+CTouch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app
+s418747167.239378
+e418747167.243007
+r1
+xTouch
+x/Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Touch /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app51"[1mTouch[0m build/emulator/ContactsTouchBuild.appee5b3d1f93f5b841^5d363e1f93f5b841^---0#0#1#--602"[1mTouch[0m build/emulator/ContactsTouchBuild.app    cd /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/loiane/bin/Sencha/Cmd/4.0.2.67:/Users/loiane/bin/Sencha/Cmd/3.1.2.342:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Applications/XAMPP/xamppfiles/htdocs/mobile-hibrido-performance/ContactsTouchBuild/platforms/ios/build/emulator/ContactsTouchBuild.app36"30AC85C8-CC4C-46B8-9F51-69EBB3C2B999-
+bF7EDEE06-2AAE-47C0-870E-9D07DF3CAC6F
+
