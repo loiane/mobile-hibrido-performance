@@ -1,0 +1,3888 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProductVersion>10.0.20506</ProductVersion>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}</ProjectGuid>
+        <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>com.loiane.qconsp.touchnormal</RootNamespace>
+        <AssemblyName>com.loiane.qconsp.touchnormal</AssemblyName>
+        <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+        <SilverlightVersion>
+        </SilverlightVersion>
+        <TargetFrameworkProfile>
+        </TargetFrameworkProfile>
+        <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+        <SilverlightApplication>true</SilverlightApplication>
+        <SupportedCultures>en-US</SupportedCultures>
+        <XapOutputs>true</XapOutputs>
+        <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+        <XapFilename>CordovaAppProj_$(Configuration)_$(Platform).xap</XapFilename>
+        <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+        <SilverlightAppEntry>com.loiane.qconsp.touchnormal.App</SilverlightAppEntry>
+        <ValidateXaml>true</ValidateXaml>
+        <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+        <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+        <BackgroundAgentType />
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>Bin\Debug</OutputPath>
+        <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;WP8</DefineConstants>
+        <NoStdLib>true</NoStdLib>
+        <NoConfig>true</NoConfig>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>Bin\Release</OutputPath>
+        <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE;WP8</DefineConstants>
+        <NoStdLib>true</NoStdLib>
+        <NoConfig>true</NoConfig>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+        <DebugSymbols>true</DebugSymbols>
+        <OutputPath>Bin\x86\Debug</OutputPath>
+        <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+        <NoStdLib>true</NoStdLib>
+        <DebugType>full</DebugType>
+        <PlatformTarget>
+        </PlatformTarget>
+        <ErrorReport>prompt</ErrorReport>
+        <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+        <Optimize>false</Optimize>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+        <OutputPath>Bin\x86\Release</OutputPath>
+        <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+        <Optimize>true</Optimize>
+        <NoStdLib>true</NoStdLib>
+        <DebugType>pdbonly</DebugType>
+        <PlatformTarget>
+        </PlatformTarget>
+        <ErrorReport>prompt</ErrorReport>
+        <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+        <DebugSymbols>true</DebugSymbols>
+        <OutputPath>Bin\ARM\Debug</OutputPath>
+        <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+        <NoStdLib>true</NoStdLib>
+        <DebugType>full</DebugType>
+        <PlatformTarget>
+        </PlatformTarget>
+        <ErrorReport>prompt</ErrorReport>
+        <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+        <Prefer32Bit>false</Prefer32Bit>
+        <Optimize>false</Optimize>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+        <OutputPath>Bin\ARM\Release</OutputPath>
+        <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+        <Optimize>true</Optimize>
+        <NoStdLib>true</NoStdLib>
+        <DebugType>pdbonly</DebugType>
+        <PlatformTarget>
+        </PlatformTarget>
+        <ErrorReport>prompt</ErrorReport>
+        <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="App.xaml.cs">
+            <DependentUpon>App.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="cordovalib\Commands\BaseCommand.cs" />
+        <Compile Include="cordovalib\JSON\JsonHelper.cs" />
+        <Compile Include="cordovalib\BrowserMouseHelper.cs" />
+        <Compile Include="cordovalib\CommandFactory.cs" />
+        <Compile Include="cordovalib\ConfigHandler.cs" />
+        <Compile Include="cordovalib\ConsoleHelper.cs" />
+        <Compile Include="cordovalib\CordovaCommandCall.cs" />
+        <Compile Include="cordovalib\CordovaView.xaml.cs">
+            <DependentUpon>CordovaView.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="cordovalib\IBrowserDecorator.cs" />
+        <Compile Include="cordovalib\ImageExifHelper.cs" />
+        <Compile Include="cordovalib\MimeTypeMapper.cs" />
+        <Compile Include="cordovalib\NativeExecution.cs" />
+        <Compile Include="cordovalib\OrientationHelper.cs" />
+        <Compile Include="cordovalib\PluginResult.cs" />
+        <Compile Include="cordovalib\ScriptCallback.cs" />
+        <Compile Include="cordovalib\XHRHelper.cs" />
+        <Compile Include="MainPage.xaml.cs">
+            <DependentUpon>MainPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <ApplicationDefinition Include="App.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </ApplicationDefinition>
+        <Page Include="cordovalib\CordovaView.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="MainPage.xaml">
+            <SubType>Designer</SubType>
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="config.xml" />
+        <Content Include="Images\appbar.back.rest.png" />
+        <Content Include="Images\appbar.close.rest.png" />
+        <Content Include="Images\appbar.feature.video.rest.png" />
+        <Content Include="Images\appbar.next.rest.png" />
+        <Content Include="Images\appbar.save.rest.png" />
+        <Content Include="Images\appbar.stop.rest.png" />
+        <None Include="cordova\lib\build.js" />
+        <None Include="cordova\lib\clean.js" />
+        <None Include="cordova\lib\deploy.js" />
+        <None Include="cordova\lib\log.js" />
+        <None Include="cordova\lib\target-list.js" />
+        <None Include="cordova\build.bat" />
+        <None Include="cordova\clean.bat" />
+        <None Include="cordova\lib\install-device.bat" />
+        <None Include="cordova\lib\install-emulator.bat" />
+        <None Include="cordova\lib\list-devices.bat" />
+        <None Include="cordova\lib\list-emulator-images.bat" />
+        <None Include="cordova\lib\list-started-emulators.bat" />
+        <None Include="cordova\lib\start-emulator.bat" />
+        <None Include="cordova\log.bat" />
+        <None Include="cordova\run.bat" />
+        <None Include="cordova\version.bat" />
+        <None Include="VERSION" />
+        <None Include="Properties\AppManifest.xml">
+            <SubType>Designer</SubType>
+        </None>
+        <None Include="Properties\WMAppManifest.xml">
+            <SubType>Designer</SubType>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="ApplicationIcon.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Background.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="SplashScreenImage.jpg" />
+    </ItemGroup>
+    <ItemGroup>
+        <WCFMetadata Include="Service References\" />
+    </ItemGroup>
+    <ItemGroup>
+        <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+    <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+    <ProjectExtensions />
+    <PropertyGroup>
+    </PropertyGroup>
+    <PropertyGroup>
+        <PostBuildEvent>
+        </PostBuildEvent>
+    </PropertyGroup>
+    <ItemGroup>
+        <Content Include="www\app\controller\ContactsController.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app\model\Contact.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app\proxy\ContactsProxy.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app\store\Contacts.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app\view\ContactEdit.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app\view\ContactInfo.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app\view\ContactsList.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app\view\ContactsPanel.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app\view\Main.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\app.json" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\build.xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\cordova.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\my-theme.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\packager.json" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\css\app.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\icons\icon-spot~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\icons\Icon.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\icons\Icon@2x.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\icons\Icon~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\icons\Icon~ipad@2x.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\icons\iTunesArtwork.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default-Landscape@2x~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default-LandscapeLeft~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default-LandscapeRight~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default-Landscape~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default-Portrait@2x~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default-PortraitUpsideDown~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default-Portrait~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default@2x.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\loading\Default~ipad.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\sass\app.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\sass\config.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\startup\1496x2048.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\startup\1536x2008.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\startup\320x460.jpg" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\startup\640x920.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\startup\748x1024.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\resources\startup\768x1004.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\16435fd3b6ede6165316006ed9ece862c579e798\_link-colors.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\16ce3242c304bff6597fcc325b4af21515de5d76\_float.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\16ce3242c304bff6597fcc325b4af21515de5d76\_hacks.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\3351032f75a46d4c012303100d793a2c990b4ab2\_colors.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\3351032f75a46d4c012303100d793a2c990b4ab2\_typography.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\3ad905afa4c77c427b5edc6a6082307961e3fde0\my-theme.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_blueprint-grid.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_carbon-fiber.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_checkerboard.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_cicada.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_gradients.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_houndstooth.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_lined-paper.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_madras.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_noise.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_polka-dot.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_radial-overlay.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_striped.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_stripes.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_tablecloth.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\564a3e603f7ee9753c9134c0f002d4aa3814c1f4\_tartan.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\755267dd2341092673424dbabca883cafe9e9580\_background.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\755267dd2341092673424dbabca883cafe9e9580\_color.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\8706462e08ac11d0984da7da0a3ceb974ba5583e\_all.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\8706462e08ac11d0984da7da0a3ceb974ba5583e\_core.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\8706462e08ac11d0984da7da0a3ceb974ba5583e\_global.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\8706462e08ac11d0984da7da0a3ceb974ba5583e\_mixins.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\8706462e08ac11d0984da7da0a3ceb974ba5583e\_variables.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\8706462e08ac11d0984da7da0a3ceb974ba5583e\_widgets.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\9083d37ec4e12744444787749095af3d5006d2cb\_core.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\9083d37ec4e12744444787749095af3d5006d2cb\_layout.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\9083d37ec4e12744444787749095af3d5006d2cb\_reset.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_appearance.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_background-clip.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_background-origin.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_background-size.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_border-radius.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_box-shadow.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_box-sizing.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_box.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_columns.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_font-face.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_images.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_inline-block.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_opacity.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_shared.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_text-shadow.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_transform.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\d7d821e9ae6cdbea7f0d744d7baf034259bbb10a\_transition.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_buttons.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_carousel.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_charts.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_draw.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_form-sliders.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_form.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_img.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_indexbar.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_list.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_loading-spinner.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_map.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_media.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_msgbox.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_panel.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_picker.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_sheets.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_tabs.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_toolbar-forms.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fbbb408d17924fff7b635eee6a12cac85692081e\_toolbar.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fd2885e3816852fe1a9a86ef9973b46dc9e9867f\_css3.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\.sass-cache\fd2885e3816852fe1a9a86ef9973b46dc9e9867f\_support.scssc" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\config.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\themes\my-theme.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\cmd\sencha.cfg" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\microloader\development.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\microloader\production.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\microloader\testing.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\css\android.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\css\apple.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\css\bb6.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\css\sencha-touch.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\css-debug\android.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\css-debug\apple.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\css-debug\bb6.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\css-debug\sencha-touch.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\images\icon1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\images\icon2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\images\icon3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\images\icon4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\images\welcome.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\sass\android.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\sass\apple.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\sass\bb6.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\sass\config-debug.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\sass\config.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\sass\sencha-touch.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\compass_init.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\check.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\clear_icon.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\disclosure.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\disclosure2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\dotgrid.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\loading.gif" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\action.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\add.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\add1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\address_book.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\add_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\arrow_down.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\arrow_left.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\arrow_right.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\arrow_up.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\at.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\atom.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\attachment.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\attachment2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\attachment3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\attachment_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\backspace.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\battery_full.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\battery_low.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\battery_power.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\blank.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bolt.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bolt_side.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bookmark1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bookmark2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bookmarks.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bookmark_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\briefcase1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\briefcase2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\brightness1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\brightness2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\broadcast.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bug.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bulb.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bullseye1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\bullseye2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\calendar.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\calendar2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\calendar_add.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\card1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\card2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chart1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chart2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chart3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chat.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chat1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chat2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chat3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chat4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chat_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\chat_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\check1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\check2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\check_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\check_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\check_dotted.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\circle.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\circle2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\circle3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\circle4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\clash.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\cloud.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\cloud_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\cloud_black_upload1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\cloud_black_upload2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\cloud_bolt.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\cloud_download.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\code1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\code2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\code3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\compass1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\compass2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\compass3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\compose.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\compose1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\compose2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\compose3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\compose_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\contract.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\cube.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\data.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\delete.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\delete1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\delete_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\delete_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\docs1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\docs2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\docs_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\docs_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_black_landscape.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_compose1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_compose2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_delete.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_down.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_drawer.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_list.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_new.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_send.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\doc_up.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\download.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\download1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\download2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\download_screen.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\eject.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\empty1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\empty2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\equalizer1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\equalizer2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\event_complete.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\expand.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\favorites.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\favorites1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\favorites_circle.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\fforward.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\find.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\flag.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\flickr2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\folder.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\folder_add.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\folder_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\folder_black_open.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\folder_delete.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\folder_delete2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\folder_lock.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\folder_open2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\font.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\forbidden.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\forward_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\globe1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\globe2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\globe_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\headphones.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\heart.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\heart_circle.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\help.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\help_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\home.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\home2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\hot.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\inbox1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\inbox2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\inbox3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\infinite.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\infinite2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\info.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\info2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\info_plain.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\info_plain2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\json.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\lab.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\layout.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\link1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\link2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\link_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\list.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\locate.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\locate1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\locate2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\locate3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\locate4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\lock_closed.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\lock_open.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\look.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\loop.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\loop2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\loop_circle.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\magic.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\mail.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\mail1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\mail2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\mail3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\mail4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\mail5.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\maps.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\mic.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\minus1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\minus2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\minus_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\minus_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\monitor1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\monitor2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\monitor3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\monitor4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\more.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\mouse.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\move.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\music1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\music2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\nodes1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\nodes2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\note1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\note2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\note3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\note_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\nuclear.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\organize.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\outbox.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\pause.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\phone1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\phone2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\phone_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\phone_ring1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\phone_ring2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\photo1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\photo2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\photo3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\photos1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\photos2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\photos4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\photo_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\photo_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\piechart.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\play1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\play2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\play_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\play_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\podcast.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\power_on.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\power_socket.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\print.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\print2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\quote1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\quote2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\quote_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\quote_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\quote_black3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\refresh.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\refresh1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\refresh2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\refresh3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\refresh5.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\reply.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\replytoall.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\resize.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\resize_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\rewind.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\right.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\right2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\rss.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\rss2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\rss_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\rss_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\rss_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\screens.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\search.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\search1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\search2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\search_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\server.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\servers.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings10.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings11.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings5.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings6.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings7.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings8.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings9.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\settings_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\share.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\shield1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\shield2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\shop1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\shop2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\shuffle.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\sign_backforth.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\sign_cross.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\sign_leftright.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\sign_leftright2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\sign_split.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\sign_switch.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\sign_uturn.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\spaces1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\spaces2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\speedometer1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\speedometer2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\speedometer_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\speedometer_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\star.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\stop.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\stop1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\stop2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\sync.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\tabbed_book.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\tag.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\tags.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\tag_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\team.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\team1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\time.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\time_repeat.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\trash.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\trash2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\trash_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\tree.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\tv.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\tweak.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\twitter1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\twitter2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\up1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\up2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\upload2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\up_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user_add.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user_business.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user_fave.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user_list.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user_list2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user_remote1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user_remove2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\user_send.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\video.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\video_black1.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\video_black2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\volume.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\volume_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\volume_down.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\volume_mute.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\volume_up.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\warning_black.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\warning_dotted.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\wifi.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\wifi2.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\wifi3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\wifi4.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pictos\window.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\pullarrow.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\select_mask.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\tip2_left.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\tip2_right.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\tip_bottom.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\tip_left.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\tip_right.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\tip_top.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\togglebg.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\togglemask.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\togglethumb.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\togglethumbbg.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\togglethumbmask.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\images\default\trackmask_outer.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\lib\theme_images.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\core\_core.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\core\_layout.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\core\_reset.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_buttons.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_carousel.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_charts.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_draw.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_form-sliders-basic.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_form-sliders.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_form.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_img.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_indexbar.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_list.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_loading-spinner.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_map.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_media.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_msgbox.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_panel.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_picker.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_sheets.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_tabs.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_toolbar-forms.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\widgets\_toolbar.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\_all.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\_core.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\_global.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\_mixins.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\_variables.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\stylesheets\sencha-touch\default\_widgets.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\templates\project\manifest.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\templates\project\sencha-touch.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\compass-recipes.gemspec" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\config.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\heydings\heydings_icons.ttf" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\iconic\demo.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\iconic\iconic.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\iconic\iconic_stroke.eot" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\iconic\iconic_stroke.otf" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\iconic\iconic_stroke.svg" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\iconic\iconic_stroke.ttf" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\OFL-FAQ.txt" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\OFL.txt" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\websymbols\websymbols-regular-webfont.eot" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\websymbols\websymbols-regular-webfont.svg" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\fonts\websymbols\websymbols-regular-webfont.ttf" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\Gemfile" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\lib\compass-recipes\sass_extensions.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\lib\compass-recipes.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\LICENSE" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\Rakefile.rb" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\README.md" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\animation\_keyframes.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_blueprint-grid.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_carbon-fiber.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_checkerboard.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_cicada.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_gradients.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_houndstooth.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_lined-paper.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_madras.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_noise.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_polka-dot.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_radial-overlay.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_striped.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_stripes.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_tablecloth.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\background\_tartan.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\effect\_bevel.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\effect\_corner-folded.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\effect\_cutout.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\effect\_folded-corner.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\effect\_glass.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\effect\_tape.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\form\element\_inline.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\form\skin\_natural.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\form\_element.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\form\_skin.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\layout\_flexible-box-model.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\layout\_grid.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\layout\_vertical-align.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\drop\_curled-corners.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\drop\_curved.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\drop\_flying.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\drop\_lifted-corners.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\drop\_perspective.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\drop\_raised.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\drop\_transform-requirement.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\_drop.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shadow\_top-edge.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_hexagon.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_octagon.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_parallelogram.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_pentagon.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_rectangle.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_rhombus.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_square.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_star.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_trapezoid.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\polygon\_triangle.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\symbol\_diamond.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\symbol\_egg.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\symbol\_heart.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\symbol\_infinity.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\symbol\_pacman.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\symbol\_yin-yang.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\_ellipse.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\_polygon.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shape\_symbol.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shared\_block-inline-block.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shared\_clearfix.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shared\_list-inline-block.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shared\_pseudo-element.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\shared\_user-select.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\border\_bevel.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\helper\_arrow.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\menu\_dropdown.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\_convex.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\_glossy.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\_gradient.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\_helper.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\_keyboard.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\_menu.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\_overlay.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\ui\_separator.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_background.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_color.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_effect.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_form.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_google-webfont.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_icons.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_layout.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_media-queries.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_shadow.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_shape.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_shared.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_ui.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\recipes\_webfont-icon.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\stylesheets\_recipes.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\background\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\background\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\background\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\color\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\color\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\color\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\bevel\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\bevel\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\bevel\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\corner-folded\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\corner-folded\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\corner-folded\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\cutout\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\cutout\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\cutout\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\glass\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\glass\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\glass\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\effect\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\form\element\inline\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\form\element\inline\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\form\element\inline\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\form\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\form\skin\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\form\skin\natural\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\form\skin\natural\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\form\skin\natural\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\google-webfont\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\google-webfont\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\google-webfont\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\layout\grid\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\layout\grid\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\layout\grid\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\layout\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\layout\vertical-align\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\layout\vertical-align\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\layout\vertical-align\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\media-queries\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\media-queries\s.scssx" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shadow\drop\curved\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shadow\drop\curved\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shadow\drop\curved\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shadow\drop\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shadow\drop\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shadow\drop\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shadow\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\ellipse\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\ellipse\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\ellipse\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\star\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\star\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\star\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\triangle\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\triangle\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\polygon\triangle\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\symbol\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\symbol\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shape\symbol\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shared\clearfix\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shared\clearfix\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shared\clearfix\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\shared\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\convex\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\convex\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\convex\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\gradient\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\gradient\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\gradient\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\keyboard\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\keyboard\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\keyboard\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\menu\dropdown\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\menu\dropdown\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\menu\dropdown\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\menu\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\overlay\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\overlay\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\overlay\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\separator\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\separator\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\separator\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\webfont-icons\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\webfont-icons\s.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\recipes\ui\webfont-icons\s.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\tests\_tests.scss" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\resources\themes\vendor\compass-recipes\VERSION" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\sencha-touch-all-debug.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\sencha-touch-all.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\sencha-touch-debug.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\sencha-touch.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\AbstractComponent.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\AbstractManager.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\ActionSheet.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Ajax.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Anim.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\app\Action.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\app\Application.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\app\Controller.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\app\History.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\app\Profile.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\app\Route.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\app\Router.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Audio.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\bb\CrossCut.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\behavior\Behavior.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\behavior\Draggable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\behavior\Droppable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\behavior\Scrollable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\behavior\Sortable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\behavior\Translatable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Button.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\carousel\Carousel.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\carousel\Indicator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\carousel\Infinite.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\carousel\Item.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\AbstractChart.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\Axis.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\Category.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\layout\CombineDuplicate.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\layout\Continuous.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\layout\Discrete.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\layout\Layout.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\Numeric.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\segmenter\Names.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\segmenter\Numeric.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\segmenter\Segmenter.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\segmenter\Time.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\sprite\Axis.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\axis\Time.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\CartesianChart.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\grid\CircularGrid.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\grid\HorizontalGrid.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\grid\RadialGrid.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\grid\VerticalGrid.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\interactions\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\interactions\CrossZoom.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\interactions\ItemHighlight.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\interactions\ItemInfo.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\interactions\PanZoom.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\interactions\Rotate.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\interactions\RotatePie3D.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\label\Callout.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\label\Label.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\Legend.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\MarkerHolder.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\Markers.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\PolarChart.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Area.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Bar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\CandleStick.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Cartesian.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Gauge.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\ItemPublisher.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Line.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Pie.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Pie3D.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Polar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Radar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Scatter.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\Series.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\AbstractRadial.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Aggregative.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Area.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Bar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\CandleStick.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Cartesian.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Line.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Pie3DPart.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\PieSlice.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Polar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Radar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\Scatter.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\sprite\StackedCartesian.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\series\StackedCartesian.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\chart\SpaceFillingChart.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Component.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\ComponentManager.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\ComponentQuery.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Container.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\class\Base.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\class\Class.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\class\ClassManager.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\class\Loader.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\EventManager.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\Ext-more.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\Ext.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\lang\Array.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\lang\Date.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\lang\Error.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\lang\Function.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\lang\JSON.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\lang\Number.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\lang\Object.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\lang\String.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\core\version\Version.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\ArrayStore.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\association\Association.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\association\BelongsTo.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\association\HasMany.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\association\HasOne.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Batch.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Connection.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\DirectStore.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Error.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Errors.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Field.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\identifier\Sequential.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\identifier\Simple.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\identifier\Uuid.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\JsonP.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\JsonStore.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Model.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\ModelManager.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\NodeInterface.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\NodeStore.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Operation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\Ajax.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\Client.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\Direct.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\JsonP.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\LocalStorage.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\Memory.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\Proxy.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\Rest.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\Server.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\SessionStorage.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\SQL.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\proxy\WebStorage.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\reader\Array.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\reader\Json.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\reader\Reader.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\reader\Xml.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Request.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\ResultSet.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\SortTypes.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Store.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\StoreManager.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\TreeStore.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Types.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\Validations.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\writer\Json.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\writer\Writer.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\data\writer\Xml.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\component\Container.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\component\DataItem.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\component\ListItem.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\DataView.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\element\Container.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\element\List.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\IndexBar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\List.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\ListItemHeader.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dataview\NestedList.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\DateExtras.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Decorator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\camera\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\camera\PhoneGap.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\camera\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\camera\Simulator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Camera.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\communicator\Android.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\communicator\Default.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Communicator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\connection\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\connection\PhoneGap.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\connection\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\connection\Simulator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Connection.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\contacts\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\contacts\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Contacts.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\device\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\device\PhoneGap.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\device\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\device\Simulator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Device.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\geolocation\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\geolocation\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\geolocation\Simulator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Geolocation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\notification\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\notification\PhoneGap.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\notification\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\notification\Simulator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Notification.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\orientation\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\orientation\HTML5.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\orientation\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Orientation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\purchases\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Purchases.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\push\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\push\Sencha.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\device\Push.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\Event.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\ExceptionEvent.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\JsonProvider.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\Manager.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\PollingProvider.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\Provider.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\RemotingEvent.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\RemotingMethod.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\RemotingProvider.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\direct\Transaction.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\CompositeElement.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\CompositeElementLite.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Element.alignment.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Element.insertion.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Element.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Element.position.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Element.static.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Element.style.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Element.traversal.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Helper.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\dom\Query.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Animator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Color.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Component.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Draw.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\engine\Canvas.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\engine\Svg.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\engine\SvgContext.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\gradient\Gradient.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\gradient\Linear.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\gradient\Radial.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Group.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\LimitedCache.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Matrix.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\modifier\Animation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\modifier\Highlight.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\modifier\Modifier.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\modifier\Target.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Path.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\SegmentTree.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Solver.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\AnimationParser.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Arc.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\AttributeDefinition.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\AttributeParser.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Circle.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Composite.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Ellipse.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\EllipticalArc.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Image.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Instancing.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Path.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Rect.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Sector.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Sprite.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\sprite\Text.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\Surface.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\TextMeasurer.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\draw\TimingFunctions.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\env\Browser.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\env\Feature.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\env\OS.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\Controller.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\Dispatcher.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\Dom.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\Event.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\ListenerStack.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\publisher\ComponentDelegation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\publisher\ComponentPaint.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\publisher\ComponentSize.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\publisher\Dom.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\publisher\ElementPaint.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\publisher\ElementSize.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\publisher\Publisher.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\publisher\TouchGesture.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\DoubleTap.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\Drag.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\HorizontalSwipe.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\LongPress.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\MultiTouch.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\Pinch.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\Recognizer.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\Rotate.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\SingleTouch.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\Swipe.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\Tap.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\Touch.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\recognizer\VerticalSwipe.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\event\Touch.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Evented.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Checkbox.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\DatePicker.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Email.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Field.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Hidden.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Input.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Number.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Password.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Radio.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Search.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Select.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Slider.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Spinner.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Text.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\TextArea.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\TextAreaInput.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Toggle.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\field\Url.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\form\FieldSet.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\form\Panel.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\Cube.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\Fade.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\FadeOut.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\Flip.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\Pop.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\PopOut.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\Slide.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\SlideOut.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\Wipe.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\animation\WipeOut.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\Animation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\easing\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\easing\Bounce.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\easing\BoundMomentum.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\easing\EaseIn.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\easing\EaseOut.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\easing\Linear.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\easing\Momentum.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\Easing.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Cover.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Cube.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Fade.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Flip.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Pop.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Reveal.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Scroll.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\ScrollCover.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\ScrollReveal.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Slide.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\card\Style.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\layout\Card.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\runner\Css.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\runner\CssAnimation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\runner\CssTransition.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\Runner.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\fx\State.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Img.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\ItemCollection.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Label.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\Box.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\Card.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\Default.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\Fit.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\FlexBox.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\Float.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\HBox.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\VBox.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\wrapper\BoxDock.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\wrapper\Dock.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\layout\wrapper\Inner.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\LoadMask.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\locale\ext-lang-en.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\Base.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\filter\Filter.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\filter\Priority.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\formatter\Default.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\formatter\Formatter.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\formatter\Identity.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\Logger.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\writer\Console.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\writer\DocumentTitle.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\writer\Remote.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\log\writer\Writer.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Map.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Mask.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Media.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\MessageBox.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Bindable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Filterable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Identifiable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Mixin.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Observable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Selectable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Sortable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Templatable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\mixin\Traversable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\navigation\Bar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\navigation\View.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Panel.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\picker\Date.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\picker\Picker.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\picker\Slot.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\proxies\SyncProxy.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\proxies\SyncStorageProxy.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\stores\SyncStore.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\Array.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\Clock.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\Config.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\CS.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\CSGenerator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\CSV.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\DatabaseDefinition.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\Protocol.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\SyncModel.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\Updates.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\Utilities.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\platform\src\data\sync\UUIDGenerator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\plugin\ListPaging.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\plugin\PullRefresh.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\scroll\indicator\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\scroll\indicator\CssTransform.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\scroll\indicator\Default.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\scroll\indicator\ScrollPosition.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\scroll\indicator\Throttled.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\scroll\Indicator.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\scroll\Scroller.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\scroll\View.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\SegmentedButton.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Sheet.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\slider\Slider.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\slider\Thumb.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\slider\Toggle.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Sortable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Spacer.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\tab\Bar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\tab\Panel.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\tab\Tab.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\table\Cell.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\table\Row.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\table\Table.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\TaskQueue.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Template.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Title.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\TitleBar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Toolbar.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\AbstractMixedCollection.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Collection.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\DelayedTask.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Draggable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Droppable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Filter.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Format.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Geolocation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Grouper.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\HashMap.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Inflector.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\JSON.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\LineSegment.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\MixedCollection.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Offset.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\paintmonitor\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\paintmonitor\CssAnimation.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\paintmonitor\OverflowChange.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\PaintMonitor.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Point.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\PositionMap.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Region.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\sizemonitor\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\sizemonitor\OverflowChange.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\sizemonitor\Scroll.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\SizeMonitor.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Sortable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Sorter.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\TapRepeater.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\translatable\Abstract.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\translatable\CssPosition.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\translatable\CssTransform.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\translatable\Dom.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\translatable\ScrollPosition.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Translatable.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\TranslatableGroup.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\TranslatableList.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\util\Wrapper.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\ux\auth\Session.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\ux\auth2\Auth.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\ux\auth2\model\Session.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\ux\Faker.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\Video.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\viewport\Android.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\viewport\Default.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\viewport\Ios.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\viewport\Viewport.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\XTemplate.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\XTemplateCompiler.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\src\XTemplateParser.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\touch\version.txt" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Plugins\org.apache.cordova.contacts\Contacts.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\org.apache.cordova.contacts\www\contacts.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\org.apache.cordova.contacts\www\Contact.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\org.apache.cordova.contacts\www\ContactAddress.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\org.apache.cordova.contacts\www\ContactError.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\org.apache.cordova.contacts\www\ContactField.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\org.apache.cordova.contacts\www\ContactFindOptions.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\org.apache.cordova.contacts\www\ContactName.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\org.apache.cordova.contacts\www\ContactOrganization.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\cordova_plugins.js" />
+    </ItemGroup>
+</Project>

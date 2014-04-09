@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>QCONSP 2014</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">.
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="lib/jquery.mobile-1.4.2.min.css" />
+</head>
+
+<body>
+
+	<div data-role="page">
+		<div data-role="header">
+            <h1>QCON SP 2014 - Click</h1>
+        </div>
+		<ul data-role="listview">
+		    <li id="1"><a href="#" class='needsclick'>Desempenho e Escalabilidade na Prática</a></li>
+		    <li id="2"><a href="#" class='needsclick'>Java na Crista da Onda</a></li>
+		    <li id="3"><a href="#" class='needsclick'>Arquiteturas que Você Sempre Quis Conhecer</a></li>
+		    <li id="4"><a href="#" class='needsclick'>Mobile: Portáteis e Furiosos</a></li>
+		</ul>
+		<div id="log-slow" style="margin-top:20px;margin-left:20px;">click: 0ms</div>
+
+		<div data-role="header">
+            <h1>QCON SP 2014 - FastClick</h1>
+        </div>
+		<ul data-role="listview">
+		    <li id="1"><a href="#" class='fastclick'>Desempenho e Escalabilidade na Prática</a></li>
+		    <li id="2"><a href="#" class='fastclick'>Java na Crista da Onda</a></li>
+		    <li id="3"><a href="#" class='fastclick'>Arquiteturas que Você Sempre Quis Conhecer</a></li>
+		    <li id="4"><a href="#" class='fastclick'>Mobile: Portáteis e Furiosos</a></li>
+		    <div id="log-fast" style="margin-top:20px;margin-left:20px;">click: 0ms</div>
+		</ul>
+	</div>
+
+	<script src="lib/jquery-1.11.0.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.2.min.js"></script>
+    <script src="lib/fastclick.js"></script>
+
+	<script type="text/javascript">
+	$(function() {
+        FastClick.attach(document.body);
+    });
+
+	var timeTouch;
+
+	$("body").on("touchend", ".needsclick", function() {
+	    timeTouch =  new Date().getTime();
+	});
+
+	$("body").on("click", ".needsclick", function() {
+	    if (timeTouch) {
+	        $("#log-slow").html("click: " + (new Date().getTime() - timeTouch) + "ms");
+	    } else {
+	        alert("Execute esse exemplo em um device touch");
+	    }
+	    return false;
+	});
+
+	$("body").on("touchend", ".fastclick", function() {
+	    timeTouch =  new Date().getTime();
+	});
+
+	$("body").on("click", ".fastclick", function() {
+	    if (timeTouch) {
+	        $("#log-fast").html("touchend: " + (new Date().getTime() - timeTouch) + "ms");
+	    } else {
+	        alert("Execute esse exemplo em um device touch");
+	    }
+	    return false;
+	});
+	</script>
+	
+</body>
+</html>

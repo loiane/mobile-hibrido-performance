@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "config.xml": {
+            "/*": {
+                "<feature name=\"Contacts\"><param name=\"wp-package\" value=\"Contacts\" /></feature>": 1
+            }
+        },
+        "Properties/WMAppManifest.xml": {
+            "/Deployment/App/Capabilities": {
+                "<Capability Name=\"ID_CAP_CONTACTS\" />": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.contacts": {
+            "PACKAGE_NAME": "{4D1B17E9-62B3-48C2-9A1F-65E9A6D322D2}"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="lib/jquery.mobile-1.4.2.min.css" />
+        <title>JQM Contacts - Opt dev</title>
+    </head>
+    <body> 
+
+        <div data-role="page" id="contacts-home">
+            <div data-role="header">
+                <h1>Meus Contatos</h1>
+            </div>
+            <div data-role="content">
+                <ul id="contactList" data-role="listview" data-inset="true">
+                </ul>
+            </div>
+        </div> <!-- Lista de contatos -->
+
+        <div data-role="page" id="contact-info">
+            <div id="contact_header" data-role="header">
+                <a href="#contacts-home" id="back" data-icon="back" data-direction="reverse">Voltar</a>
+                <h1></h1>
+            </div>
+            <div id="contact_content" data-role="content">    
+               <div data-role="fieldcontain">
+                    <label for="givenName">Nome:</label>
+                    <input type="text" name="givenName" id="givenName" readonly/>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="familyName">Sobrenome:</label>
+                    <input type="text" name="familyName" id="familyName" readonly/>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="phone">Telefone:</label>
+                    <input type="text" name="phone" id="phone" readonly/>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email"  readonly/>
+                </div>
+            </div>
+        </div> <!-- Detalhes do contato -->
+
+        <script src="lib/jquery-1.11.0.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.2.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="lib/fastclick.js"></script>
+        <script src="lib/pageslider.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

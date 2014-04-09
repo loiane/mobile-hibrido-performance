@@ -1,0 +1,14 @@
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\Bin\Debug\Background.png
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\Bin\Debug\com.loiane.qconsp.jqmclick.dll
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\Bin\Debug\com.loiane.qconsp.jqmclick.pdb
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\obj\Debug\com.loiane.qconsp.jqmclick.g.resources
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\obj\Debug\com.loiane.qconsp.jqmclick.dll
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\obj\Debug\com.loiane.qconsp.jqmclick.pdb
+C:\Users\loiane\Documents\GitHub\mobile-hibrido-performance\JQMClick\platforms\wp8\obj\Debug\XapCacheFile.xml
